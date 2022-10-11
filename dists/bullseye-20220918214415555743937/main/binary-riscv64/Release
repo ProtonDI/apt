@@ -1,9 +1,0 @@
-Archive: bullseye
-Component: main
-Origin: ProtonDI
-Label: Freight
-NotAutomatic: no
-ButAutomaticUpgrades: no
-Architecture: riscv64
-Date: Sun, 18 Sep 2022 21:44:15 UTC
-Valid-Until: Tue, 30 Nov 2038 00:00:00 UTC
