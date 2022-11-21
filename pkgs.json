@@ -6,5 +6,5 @@
   "vncterm": "1.7-1",
   "pve-manager": "7.2-11",
   "pve-qemu": "7.0.0-4",
-  "qemu-server": "7.2-10"
+  "qemu-server": "7.2-12"
 }
