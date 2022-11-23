@@ -4,7 +4,7 @@
   "pve-kernel-meta": "7.2-14",
   "spiceterm": "3.2-2",
   "vncterm": "1.7-1",
-  "pve-manager": "7.3-2",
+  "pve-manager": "7.3-3",
   "pve-qemu": "7.0.0-4",
   "qemu-server": "7.3-1"
 }
