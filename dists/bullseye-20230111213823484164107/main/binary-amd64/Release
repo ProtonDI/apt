@@ -1,0 +1,9 @@
+Archive: bullseye
+Component: main
+Origin: ProtonDI
+Label: Freight
+NotAutomatic: no
+ButAutomaticUpgrades: no
+Architecture: amd64
+Date: Wed, 11 Jan 2023 21:38:23 UTC
+Valid-Until: Tue, 30 Nov 2038 00:00:00 UTC
