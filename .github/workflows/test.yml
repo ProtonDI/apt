@@ -18,7 +18,7 @@ jobs:
         uses: docker/setup-buildx-action@v2
 
       - name: Run test
-        uses: docker/build-push-action@v3
+        uses: docker/build-push-action@v4
         with:
           context: ./tests/installation
           platforms: linux/amd64
