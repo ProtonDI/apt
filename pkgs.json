@@ -1,7 +1,7 @@
 {
   "proxmox-archive-keyring": "3.0",
   "proxmox-ve": "7.2-1",
-  "pve-kernel-meta": "7.3-3",
+  "pve-kernel-meta": "7.3-4",
   "spiceterm": "3.2-2",
   "vncterm": "1.7-1",
   "pve-manager": "7.3-6",
