@@ -5,6 +5,6 @@
   "spiceterm": "3.2-2",
   "vncterm": "1.7-1",
   "pve-manager": "7.3-6",
-  "pve-qemu": "7.2.0-4",
+  "pve-qemu": "7.2.0-5",
   "qemu-server": "7.3-3"
 }
