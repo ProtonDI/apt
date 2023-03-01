@@ -1,0 +1,1293 @@
+Package: proxmox-archive-keyring
+Version: 2.1
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 21
+Section: misc
+Priority: optional
+Description: Proxmox APT archive keyring
+ This package contains the release keyrings used to sign APT repositories for
+ various Proxmox products.
+Filename: pool/bullseye/main/p/proxmox-archive-keyring/proxmox-archive-keyring_2.1_all.deb
+MD5sum: 5583d31cc20347091fc4e9a140617831
+SHA1: d68b0142bef8c372af93e8a1b3a8e78c66db198c
+SHA256: 8e293fddcd4f0c3f4bbcc1edea56643f504e9534ea999e9fbcbb46f5a1d3ca03
+SHA512: fcd30abfbd26ab69decfeabad185d2b0c84b2410173e530d537b838c9863f949e9ae5a10539571dba4c409608d53c2657b77180d6cc10d5b8da7a74af7e69e65
+Size: 4228
+
+Package: proxmox-archive-keyring
+Version: 3.0
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 23
+Section: misc
+Priority: optional
+Description: Proxmox APT archive keyring
+ This package contains the release keyrings used to sign APT repositories for
+ various Proxmox products.
+Filename: pool/bullseye/main/p/proxmox-archive-keyring/proxmox-archive-keyring_3.0_all.deb
+MD5sum: 326aea218ea4f7c849fe17b459b15298
+SHA1: 379f7915081fc661d477d9494b38368728c09a64
+SHA256: 5369b3897ad304dc840499bc75bc68b768f6e19f9b293596f19cc9feecaf916f
+SHA512: 07efb88b81ee4776c820f803444790f632c882508206a0bbea72c1f226d7ee26c111608fcc597efc32af20438e3029d1ab0cf8c978b3778ab340f695d930901a
+Size: 5456
+
+Package: proxmox-ve
+Version: 7.2-1
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 28
+Depends: apt, openssh-client, openssh-server, proxmox-archive-keyring, pve-kernel-helper, pve-manager, pve-qemu-kvm, qemu-server, spiceterm, vncterm
+Conflicts: proxmox-ve-3.10.0, proxmox-virtual-environment, pve-kernel
+Replaces: proxmox-ve-3.10.0, proxmox-virtual-environment, pve-kernel
+Provides: proxmox-virtual-environment
+Section: admin
+Priority: optional
+Homepage: https://www.proxmox.com
+Description: Proxmox Virtual Environment
+ The Proxmox Virtual Environment is an easy to use Open Source
+ virtualization platform for running Virtual Appliances and Virtual
+ Machines. This is a meta package which will install everything
+ needed.
+Filename: pool/bullseye/main/p/proxmox-ve/proxmox-ve_7.2-1_all.deb
+MD5sum: 63d45af6062e3a2aeafbf4bd99beb662
+SHA1: 12d5832f126a72acd5123ebb8b4d91814c04787d
+SHA256: 1de38814043c2cd8d6096dba617ce377e8926dede67be3efd1a8821a41e9912d
+SHA512: d2d64fc03c6f024f22c5618afda8868a5e1ac54c9cf000e771dd8560322ed48465992adea71c2f460fc754fc053ded7d8ac31000139a1fe4a1f851e8f69d6db2
+Size: 6112
+
+Package: proxmox-ve
+Version: 7.3-1
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 28
+Depends: apt, openssh-client, openssh-server, proxmox-archive-keyring, pve-kernel-helper, pve-manager, pve-qemu-kvm, qemu-server, spiceterm, vncterm
+Conflicts: proxmox-ve-3.10.0, proxmox-virtual-environment, pve-kernel
+Replaces: proxmox-ve-3.10.0, proxmox-virtual-environment, pve-kernel
+Provides: proxmox-virtual-environment
+Section: admin
+Priority: optional
+Homepage: https://www.proxmox.com
+Description: Proxmox Virtual Environment
+ The Proxmox Virtual Environment is an easy to use Open Source
+ virtualization platform for running Virtual Appliances and Virtual
+ Machines. This is a meta package which will install everything
+ needed.
+Filename: pool/bullseye/main/p/proxmox-ve/proxmox-ve_7.3-1_all.deb
+MD5sum: 36886170b133f2ef083803611f565668
+SHA1: 5a614014df2ee7ad0ffa10348aefe63c32576c56
+SHA256: aa78cee11fb242b4c4bd97687d03176d815237b2bfc7be5662db24fbba8b1366
+SHA512: cf2257e114ad0378cd28be3d732d6dc368b1363ab977530b1f51cf7032f2212022f33831b4179e29f4c419bbcf6127620b86a051e0be8648bbb8e68fd79554fd
+Size: 6124
+
+Package: pve-headers-5.19
+Source: pve-kernel-5.19
+Version: 7.2-12
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 10
+Depends: pve-headers-5.19.7-1-pve
+Provides: linux-headers-amd64, linux-headers-generic
+Section: admin
+Priority: optional
+Description: Latest Proxmox VE Kernel Headers
+ This is a metapackage which will install the kernel headers
+ for the latest available proxmox kernel from the 5.19
+ series.
+Filename: pool/bullseye/main/p/pve-kernel-5.19/pve-headers-5.19_7.2-12_all.deb
+MD5sum: 3c32113359a2905a5c18e508dc908002
+SHA1: bba949b8afd64914229dfbdb20a6d6f1f58fcb46
+SHA256: 1676a9904d1916db6b6258b8bdd70055c3c7a0da128fd5a8f2d15452448cb5d3
+SHA512: d960f3f5046b13722ab35b7cf53d110a231fa7895c6a8b15588216732a974ac32b222b69a780440150d5be9ebe89fedd224cfd45dd93938309408936daad16e5
+Size: 4640
+
+Package: pve-headers-5.19
+Source: pve-kernel-5.19
+Version: 7.2-14
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 10
+Depends: pve-headers-5.19.17-1-pve
+Provides: linux-headers-amd64, linux-headers-generic
+Section: admin
+Priority: optional
+Description: Latest Proxmox VE Kernel Headers
+ This is a metapackage which will install the kernel headers
+ for the latest available proxmox kernel from the 5.19
+ series.
+Filename: pool/bullseye/main/p/pve-kernel-5.19/pve-headers-5.19_7.2-14_all.deb
+MD5sum: f59dc5f9f329d48b7ada0178e1fbb2fd
+SHA1: 626c316873d0b2048a193b5b8b8c1a3ae21eb44a
+SHA256: 52b4b17899c62813845f103684fb58e84ffd929fc169596d94d6de2a87dba17c
+SHA512: 1e2407394b423c262111116ba82189e21f2f732da76b32216d3b6821475e00fa1fb6fa94ef7a884c2ae4f63815e0dcff2c997dcbc9782358fb382a59d4bdf18b
+Size: 4676
+
+Package: pve-headers-6.1
+Source: pve-kernel-6.1
+Version: 7.3-1
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 10
+Depends: pve-headers-6.1.0-1-pve
+Provides: linux-headers-amd64, linux-headers-generic
+Section: admin
+Priority: optional
+Description: Latest Proxmox VE Kernel Headers
+ This is a metapackage which will install the kernel headers
+ for the latest available proxmox kernel from the 6.1
+ series.
+Filename: pool/bullseye/main/p/pve-kernel-6.1/pve-headers-6.1_7.3-1_all.deb
+MD5sum: 92ee11240150b12ed3a621961363a2d3
+SHA1: ba18b87739774ff6c441491753bb52f0aefaf0a6
+SHA256: bf7f1504ea612d7f845b9e2378960bbf8b710ec519c89c4782d482380e6e54ca
+SHA512: a9b640358a2dec4e3e17bca38a8634635014f25c59b074855c21764847cf89c771ddb871168d030d1abe04d32a02c7ce4dbd3f3f88a04adce94f9abfc66990c2
+Size: 4688
+
+Package: pve-headers-6.1
+Source: pve-kernel-6.1
+Version: 7.3-2
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 10
+Depends: pve-headers-6.1.2-1-pve
+Provides: linux-headers-amd64, linux-headers-generic
+Section: admin
+Priority: optional
+Description: Latest Proxmox VE Kernel Headers
+ This is a metapackage which will install the kernel headers
+ for the latest available proxmox kernel from the 6.1
+ series.
+Filename: pool/bullseye/main/p/pve-kernel-6.1/pve-headers-6.1_7.3-2_all.deb
+MD5sum: 9eee3c37e3e15b2a3180ddcab3a8c239
+SHA1: b5b5b61af7311d065a3f0f3bcfa53b342dcda764
+SHA256: fc9d0c961a4e9ffa081789f6f55984a76686b003c0fa1356d492ab8148b5aea7
+SHA512: 72b217bb1c21e008ef66731b98af777b0b085e8e66dbe210e9ac6a503ba4a24434cef8325a14788531942597512d7db61391969960768ae53073e7557253e20e
+Size: 4708
+
+Package: pve-headers-6.1
+Source: pve-kernel-6.1
+Version: 7.3-3
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 11
+Depends: pve-headers-6.1.6-1-pve
+Provides: linux-headers-amd64, linux-headers-generic
+Section: admin
+Priority: optional
+Description: Latest Proxmox VE Kernel Headers
+ This is a metapackage which will install the kernel headers
+ for the latest available proxmox kernel from the 6.1
+ series.
+Filename: pool/bullseye/main/p/pve-kernel-6.1/pve-headers-6.1_7.3-3_all.deb
+MD5sum: d2a1fa79f6573af51827c2f9f264dca1
+SHA1: 9585a553ee4490e84831a5f3f0c755df9bb626b5
+SHA256: 867e8d59ec96c2f7a9c97aeded4d9b456c7d30f49cb7a98df8f9f5c9b3dd140f
+SHA512: 1396b7da8afbbb4eb273318da48760933db3cb66a84fec95ea24f332c362d146b84d9d652386cc3e0302c78a3c5aa2ad3313ecd42c68a5a95c6514a990106c16
+Size: 4736
+
+Package: pve-headers-6.1
+Source: pve-kernel-6.1
+Version: 7.3-4
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 11
+Depends: pve-headers-6.1.10-1-pve
+Provides: linux-headers-amd64, linux-headers-generic
+Section: admin
+Priority: optional
+Description: Latest Proxmox VE Kernel Headers
+ This is a metapackage which will install the kernel headers
+ for the latest available proxmox kernel from the 6.1
+ series.
+Filename: pool/bullseye/main/p/pve-kernel-6.1/pve-headers-6.1_7.3-4_all.deb
+MD5sum: a4af9fe94a7430e2f36fbe771c4dd371
+SHA1: a8e82afc954108952a9cab4a4688d83f8d1844d7
+SHA256: d39a1adb561a89dd4320a4e8a46e5339b6d9bb53c9f3213ae240147fb0a4e9cb
+SHA512: d08b64a7814574a953ac760a1813ad226924078a787538ac5c97260e617996adac9e4120a6b87ee38316d92b2ca64d063b25637a97b9ffff51825fd872436f71
+Size: 4752
+
+Package: pve-headers-6.1
+Source: pve-kernel-6.1
+Version: 7.3-5
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 11
+Depends: pve-headers-6.1.14-1-pve
+Provides: linux-headers-amd64, linux-headers-generic
+Section: admin
+Priority: optional
+Description: Latest Proxmox VE Kernel Headers
+ This is a metapackage which will install the kernel headers
+ for the latest available proxmox kernel from the 6.1
+ series.
+Filename: pool/bullseye/main/p/pve-kernel-6.1/pve-headers-6.1_7.3-5_all.deb
+MD5sum: 7c9bdd9a599a6540db9fe1cfb5e02027
+SHA1: 6257e45a1abd36d549ebc47c3a0597c90ada0605
+SHA256: 22af93f72df2d7fe8c4305b028da92d6e8be53fbb68cbdc75167f5159e4d520c
+SHA512: 222f50d4cfac74e90e7b546f49e610285163d2675eecff71cb2a1084e0ef0c6617bee57ce65a2deaed31ed1fbef4e5d122fcf7e1a0175cda9422480c2c3942e2
+Size: 4764
+
+Package: pve-headers
+Source: proxmox-ve
+Version: 7.2-1
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 10
+Depends: pve-headers-5.15
+Section: admin
+Priority: optional
+Homepage: https://www.proxmox.com
+Description: Default Proxmox VE Kernel Headers
+ This is a metapackage which will install the kernel headers for the
+ current default kernel.
+Filename: pool/bullseye/main/p/proxmox-ve/pve-headers_7.2-1_all.deb
+MD5sum: e0f0da529ed2d78165d26c808b3e5f87
+SHA1: 527a69130f0035062d2ec18ec7cf913cf9340487
+SHA256: 82622a62ed7f2dcba368803f023bab5fe96a290dabf1517bab6b6bc75af90d30
+SHA512: eebd141a64da75dde7fa7fd8f07d44021af34d57a8d869c786338feb9b335f98d8abdecbf2a1ad25179b1a93e083baa8c2ed8817fe18e12b5ca5489012fef1b5
+Size: 3736
+
+Package: pve-headers
+Source: proxmox-ve
+Version: 7.3-1
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 10
+Depends: pve-headers-5.15
+Section: admin
+Priority: optional
+Homepage: https://www.proxmox.com
+Description: Default Proxmox VE Kernel Headers
+ This is a metapackage which will install the kernel headers for the
+ current default kernel.
+Filename: pool/bullseye/main/p/proxmox-ve/pve-headers_7.3-1_all.deb
+MD5sum: 30dffe9fda29a5287bbb73dd4fd4fc11
+SHA1: 94118dd8462316ef622c705d4295fad5c677604e
+SHA256: 0bb1112e697fccf15dc7307ac83cab0b26b80eaa4b0c5afa41ec5b2baa7b95df
+SHA512: 671eb7c25dede8b63ff4379d227aaa187e3162422ae401753d35f5bf7bae4986569a2e92202defa681aa90e76192e8d2bddbd2ab659bc0c6ec2e3c3c7dcfeeb4
+Size: 3744
+
+Package: pve-kernel-5.19
+Version: 7.2-12
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 12
+Depends: pve-firmware, pve-kernel-5.19.7-1-pve
+Provides: linux-image-amd64, linux-image-generic, wireguard-modules (= 1.0.0)
+Section: admin
+Priority: optional
+Description: Latest Proxmox VE Kernel Image
+ This is a metapackage which will install the latest available
+ proxmox kernel from the 5.19 series.
+Filename: pool/bullseye/main/p/pve-kernel-5.19/pve-kernel-5.19_7.2-12_all.deb
+MD5sum: 2fb40dba4f89ed706c9eab6c35ab2bb6
+SHA1: f803d6b0d82c01faf7e6859a9645ced55693acd9
+SHA256: 865bf75cba3475062a07dc23b543877cc9cdb3d66d3052c8b1b4ff6338feb4cf
+SHA512: 5c9c3f5b7e87b1e37b8874e47375ddc8b52423cd60e5321224d8e35544fd263f4856fe6a23de7233417b5b0c0ac10f6ddd6f1ecd2c6d28d49112186bfdd3767d
+Size: 4992
+
+Package: pve-kernel-5.19
+Version: 7.2-14
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 12
+Depends: pve-firmware, pve-kernel-5.19.17-1-pve
+Provides: linux-image-amd64, linux-image-generic, wireguard-modules (= 1.0.0)
+Section: admin
+Priority: optional
+Description: Latest Proxmox VE Kernel Image
+ This is a metapackage which will install the latest available
+ proxmox kernel from the 5.19 series.
+Filename: pool/bullseye/main/p/pve-kernel-5.19/pve-kernel-5.19_7.2-14_all.deb
+MD5sum: 11d231c75d16ea42b7f2321e3d3a23db
+SHA1: af800a12f5d54886c80727bdca9fa99b7b8107f0
+SHA256: 867e381b0153ab3d4aa318a26f891c3095a4f7483afa5998471852f0ac3c25f6
+SHA512: 0950ed5c9752e5c8dcc4c1d17fe40a4bae8fff0214ac4128964373ba828d529c77c1eafa20cb84e974343b0463d0d51323f2494329c361812f214b1c66a8f529
+Size: 5020
+
+Package: pve-kernel-6.1
+Version: 7.3-1
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 12
+Depends: pve-firmware, pve-kernel-6.1.0-1-pve
+Provides: linux-image-amd64, linux-image-generic, wireguard-modules (= 1.0.0)
+Section: admin
+Priority: optional
+Description: Latest Proxmox VE Kernel Image
+ This is a metapackage which will install the latest available
+ proxmox kernel from the 6.1 series.
+Filename: pool/bullseye/main/p/pve-kernel-6.1/pve-kernel-6.1_7.3-1_all.deb
+MD5sum: c8de1b8cb725dffb54a36308e8951fed
+SHA1: 695b4f23f3ea932c870e0321f53a3a7020ccfb07
+SHA256: 9a4c37b802e20537ad38e7b86179b1c45e84ff360f2813d2ff09b5c4a1a138ce
+SHA512: c6bd36c8d339240c3ca15c05b7ec896db11b9c04fd6b2dbe5ab144b6dad34d3f80a2f84f5ae4f20e5aa5be3423490fc6aadda98d082ea4e882cbd6f992ba7865
+Size: 5040
+
+Package: pve-kernel-6.1
+Version: 7.3-2
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 12
+Depends: pve-firmware, pve-kernel-6.1.2-1-pve
+Provides: linux-image-amd64, linux-image-generic, wireguard-modules (= 1.0.0)
+Section: admin
+Priority: optional
+Description: Latest Proxmox VE Kernel Image
+ This is a metapackage which will install the latest available
+ proxmox kernel from the 6.1 series.
+Filename: pool/bullseye/main/p/pve-kernel-6.1/pve-kernel-6.1_7.3-2_all.deb
+MD5sum: bf06805b5fba5b4e95ceb06f10b2d3ae
+SHA1: 78d82603d949fcf15e9cfcb7f7ddd16a73c653e1
+SHA256: dc3b8cf01324c51f457efdbc0ea07241391359e954ab1d9c54b641c2181b2bc4
+SHA512: 3e9336b4c27e12a2b4f39bb75b67c2f7b4c4cc7e7916ff530535e37d9b64fccfc625b2908abc8bc4720a3adac0a5dad026c9c3563954b32b759cfdd2ec225c49
+Size: 5052
+
+Package: pve-kernel-6.1
+Version: 7.3-3
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 13
+Depends: pve-firmware, pve-kernel-6.1.6-1-pve
+Provides: linux-image-amd64, linux-image-generic, wireguard-modules (= 1.0.0)
+Section: admin
+Priority: optional
+Description: Latest Proxmox VE Kernel Image
+ This is a metapackage which will install the latest available
+ proxmox kernel from the 6.1 series.
+Filename: pool/bullseye/main/p/pve-kernel-6.1/pve-kernel-6.1_7.3-3_all.deb
+MD5sum: 3409f85c9ef5e355139355ecfdcccc2f
+SHA1: 8ea7507058990c4a063e504e14f7334a39f9624b
+SHA256: 127fb02d1d68a46486ae1394504c4accd15d2e7537dfb47e0bb51a7d35ce17f2
+SHA512: 46ad5c87ea4f063ac3c577a5a48ab21412203748345d942cd0e35a40c43525371cc5c85d56af32807134fa41983d1bc9a0924229f129c10b54ad5b1525906c30
+Size: 5080
+
+Package: pve-kernel-6.1
+Version: 7.3-4
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 13
+Depends: pve-firmware, pve-kernel-6.1.10-1-pve
+Provides: linux-image-amd64, linux-image-generic, wireguard-modules (= 1.0.0)
+Section: admin
+Priority: optional
+Description: Latest Proxmox VE Kernel Image
+ This is a metapackage which will install the latest available
+ proxmox kernel from the 6.1 series.
+Filename: pool/bullseye/main/p/pve-kernel-6.1/pve-kernel-6.1_7.3-4_all.deb
+MD5sum: d3865ed3ca4ce965648ba91a2968a648
+SHA1: 01bd0fb9d80990bfcfc57cdf276322662b584514
+SHA256: 6b01c4a3997c0a9f85b0719bf01d16a6df0d8936061b2593ce4270ee78be5d3e
+SHA512: e5c8a225559c01384a1feabae9791bafaa0cfe7b4e238392e12b0c095e402e82a709a1c3769f6d78db829df926cfbc022433c6e1580e66c7ecee87f2f0669429
+Size: 5100
+
+Package: pve-kernel-6.1
+Version: 7.3-5
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 13
+Depends: pve-firmware, pve-kernel-6.1.14-1-pve
+Provides: linux-image-amd64, linux-image-generic, wireguard-modules (= 1.0.0)
+Section: admin
+Priority: optional
+Description: Latest Proxmox VE Kernel Image
+ This is a metapackage which will install the latest available
+ proxmox kernel from the 6.1 series.
+Filename: pool/bullseye/main/p/pve-kernel-6.1/pve-kernel-6.1_7.3-5_all.deb
+MD5sum: d448762874ebfb76b5ddc889b2d2174f
+SHA1: f1d704ad93e63c87a5dbd70b810372e0fcb796bd
+SHA256: b47ecf7b1faf9063325bb530ed45f74c0371d8a1f02b747e1e83fa4321a46c92
+SHA512: ea416714c95a365bee6ba8984f591354bbca9fecc8473931aef826d6169510319dbeb5466caa8134fb6ad3ec71a5cc7d21c9418f24ccfe60ee671db05854bcca
+Size: 5116
+
+Package: pve-kernel-helper
+Source: pve-kernel-5.19
+Version: 7.2-12
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 81
+Depends: dosfstools, gdisk, systemd, udev
+Breaks: proxmox-ve (<< 6.0-2~)
+Replaces: proxmox-ve (<< 6.0-2~)
+Section: admin
+Priority: optional
+Description: Function for various kernel maintenance tasks.
+ This package includes kernel-hooks for marking certain kernels as
+ NeverAutoRemove and helpers for systemd-boot
+Filename: pool/bullseye/main/p/pve-kernel-5.19/pve-kernel-helper_7.2-12_all.deb
+MD5sum: 740c38ce3f6327e703eba356bb1dfb20
+SHA1: 3ed73cbe2fa51fc560f424dd980a9451619a8526
+SHA256: b4ebe253af5f45bd00efa62288eb487856bdc24766ec3b060bb2251c09cfb299
+SHA512: 70367a6a693bfa6e4cef1e164fb7cdf536188c257685f176b665b3cf05e2021fa24af1581c39e217ca0ff96b9337d31b25398f9ca74d75e3144d5fb72f3c6bd4
+Size: 15132
+
+Package: pve-kernel-helper
+Source: pve-kernel-5.19
+Version: 7.2-14
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 81
+Depends: dosfstools, gdisk, systemd, udev
+Breaks: proxmox-ve (<< 6.0-2~)
+Replaces: proxmox-ve (<< 6.0-2~)
+Section: admin
+Priority: optional
+Description: Function for various kernel maintenance tasks.
+ This package includes kernel-hooks for marking certain kernels as
+ NeverAutoRemove and helpers for systemd-boot
+Filename: pool/bullseye/main/p/pve-kernel-5.19/pve-kernel-helper_7.2-14_all.deb
+MD5sum: 00188cec5c2e53f42ef9fdcb409e2976
+SHA1: 7e633d0e201435525a66a2ae3bd56171c94b674d
+SHA256: 3aa697a80acf27f45eba446c99d4d54fab84729fe5f0d26ade613d90ba69dd94
+SHA512: 366ff002711dba9c5ad48d7598b9862529daa9334d6d236ddea852dda140d2d55ed2a43e367a37aea6ff574bef7769dfb606c0895caa5d39e15bbcfb0b1d6110
+Size: 15164
+
+Package: pve-kernel-helper
+Source: pve-kernel-6.1
+Version: 7.3-1
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 81
+Depends: dosfstools, gdisk, systemd, udev
+Breaks: proxmox-ve (<< 6.0-2~)
+Replaces: proxmox-ve (<< 6.0-2~)
+Section: admin
+Priority: optional
+Description: Function for various kernel maintenance tasks.
+ This package includes kernel-hooks for marking certain kernels as
+ NeverAutoRemove and helpers for systemd-boot
+Filename: pool/bullseye/main/p/pve-kernel-6.1/pve-kernel-helper_7.3-1_all.deb
+MD5sum: 359161e6e25b5191dda258090467130d
+SHA1: f330028b34b2f1931d260e17eb1f95aa3cf222d2
+SHA256: 90748fbab9551be7933919eff766db8ebee503ef071dc6a709fdb9cf619b533d
+SHA512: f3d1b905b623d22aed6d835052f4866ea6a359f4cc8d4726d11175f6e1e86b7498316172a077c5f7089037039aa2e9a96c9a1899eeabcc059dc4909bd4bde262
+Size: 15188
+
+Package: pve-kernel-helper
+Source: pve-kernel-6.1
+Version: 7.3-2
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 81
+Depends: dosfstools, gdisk, systemd, udev
+Breaks: proxmox-ve (<< 6.0-2~)
+Replaces: proxmox-ve (<< 6.0-2~)
+Section: admin
+Priority: optional
+Description: Function for various kernel maintenance tasks.
+ This package includes kernel-hooks for marking certain kernels as
+ NeverAutoRemove and helpers for systemd-boot
+Filename: pool/bullseye/main/p/pve-kernel-6.1/pve-kernel-helper_7.3-2_all.deb
+MD5sum: b5b3518a4758ecc91a201f1a60a5200e
+SHA1: 868f351eb61f45929b01c56e553069b1b8d44553
+SHA256: 40121931f4475e895aa208ea51536f97706d38463df9b11d9545d67c43bfc920
+SHA512: fa4a432a6a7986dcb147c3e0525bc9c37ccba668ece9bda6e6de41fab396f92f469bca96fabbe9a815453a36c4e52d3b424e8f3538e7cd4e09add70c2cf3d44a
+Size: 15204
+
+Package: pve-kernel-helper
+Source: pve-kernel-6.1
+Version: 7.3-3
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 82
+Depends: dosfstools, gdisk, systemd, udev
+Breaks: proxmox-ve (<< 6.0-2~)
+Replaces: proxmox-ve (<< 6.0-2~)
+Section: admin
+Priority: optional
+Description: Function for various kernel maintenance tasks.
+ This package includes kernel-hooks for marking certain kernels as
+ NeverAutoRemove and helpers for systemd-boot
+Filename: pool/bullseye/main/p/pve-kernel-6.1/pve-kernel-helper_7.3-3_all.deb
+MD5sum: b0fe0f45f0271a74da95a0b4cfb111df
+SHA1: ea126319cfd0be673d8e27abf12844888e865127
+SHA256: 502ad7e04041b25770c7941ab2d784203f7535bbd7b5ed19b624767d99b5ad28
+SHA512: 2eb3dbfee370d8669242256589de6e22cb37b3dc2c6975e8252f5455ee1a8a980c87487b7944109417ddd214c07bd614a75c246ea88d81eca652b307dfa8d725
+Size: 15220
+
+Package: pve-kernel-helper
+Source: pve-kernel-6.1
+Version: 7.3-4
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 82
+Depends: dosfstools, gdisk, systemd, udev
+Breaks: proxmox-ve (<< 6.0-2~)
+Replaces: proxmox-ve (<< 6.0-2~)
+Section: admin
+Priority: optional
+Description: Function for various kernel maintenance tasks.
+ This package includes kernel-hooks for marking certain kernels as
+ NeverAutoRemove and helpers for systemd-boot
+Filename: pool/bullseye/main/p/pve-kernel-6.1/pve-kernel-helper_7.3-4_all.deb
+MD5sum: 62baf4bca47ff9de5f1b3ed8e977d651
+SHA1: 1100b24434d27db3abcba17b0e69d0ebed4d89ea
+SHA256: cd865e8dc7e3d9341d0a9960668b143046a27415da1dd8a6343e04e90f5c3ef4
+SHA512: e315311ed5ea8b3db29eeba130f161be7c084d47312d67cb2acb5a60a1b7e895c55d4f0db4fcb907a2932685d3d788fee37c044ddd8921329e8b830f91bbf06e
+Size: 15244
+
+Package: pve-kernel-helper
+Source: pve-kernel-6.1
+Version: 7.3-5
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 82
+Depends: dosfstools, gdisk, systemd, udev
+Breaks: proxmox-ve (<< 6.0-2~)
+Replaces: proxmox-ve (<< 6.0-2~)
+Section: admin
+Priority: optional
+Description: Function for various kernel maintenance tasks.
+ This package includes kernel-hooks for marking certain kernels as
+ NeverAutoRemove and helpers for systemd-boot
+Filename: pool/bullseye/main/p/pve-kernel-6.1/pve-kernel-helper_7.3-5_all.deb
+MD5sum: 5c81bb4e62d1a2c0cae51f4861f922a1
+SHA1: a5d2697092660a2b26cf69fc9f53a536b3b0fa3f
+SHA256: 4e7311fe078b8bc11f28bb0c1794ee1ff31109a0656ec37e5d2432d9d1579941
+SHA512: 38980b3c14dbbe51289cc0bb8cd46cb94c9b899d5f41ad82790be87b772361f86035c1770427c665df8c6328c8d2e75465cc6a2e5a20be62aa1ab09c40870729
+Size: 15252
+
+Package: pve-manager
+Version: 7.2-11
+Architecture: amd64
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 10017
+Depends: apt-transport-https | apt (>= 1.5~), ca-certificates, cstream, dtach, fonts-font-awesome, gdisk, hdparm, ifupdown2 (>= 2.0.1-1+pve8) | ifenslave (>= 2.6), libapt-pkg-perl, libc6 (>= 2.14), libcrypt-ssleay-perl, libfile-readbackwards-perl, libfilesys-df-perl, libjs-extjs (>= 7.0.0), libjs-qrcodejs (>= 1.20201119), libjson-perl, liblwp-protocol-https-perl, libnet-dns-perl, libproxmox-acme-perl, libproxmox-acme-plugins, libproxmox-rs-perl (>= 0.2.0), libpve-access-control (>= 7.0-7), libpve-cluster-api-perl (>= 7.0-5), libpve-cluster-perl (>= 6.1-6), libpve-common-perl (>= 7.1-4), libpve-guest-common-perl (>= 4.0-2), libpve-http-server-perl (>= 4.1-1), libpve-rs-perl (>= 0.7.1), libpve-storage-perl (>= 7.2-3), librados2-perl, libtemplate-perl, libterm-readline-gnu-perl, liburi-perl, libuuid-perl, libwww-perl (>= 6.04-1), logrotate, lsb-base, lzop, zstd, novnc-pve (>= 1.2.0-2~), pciutils, perl (>= 5.10.0-19), postfix | mail-transport-agent, proxmox-mini-journalreader (>= 1.3-1), proxmox-widget-toolkit (>= 3.4-9), pve-cluster (>= 7.0-4), pve-container (>= 4.0-9), pve-docs, pve-firewall, pve-ha-manager, pve-i18n (>= 1.0-3), pve-xtermjs (>= 4.7.0-1), qemu-server (>= 6.2-17), rsync, spiceterm, systemd, vncterm, wget, perl:any
+Recommends: proxmox-offline-mirror-helper
+Suggests: libpve-network-perl (>= 0.5-1)
+Conflicts: vlan, vzdump
+Breaks: libpve-network-perl (<< 0.5-1)
+Replaces: vlan, vzdump
+Provides: vlan, vzdump
+Section: admin
+Priority: optional
+Description: Proxmox Virtual Environment Management Tools
+ This package contains the Proxmox Virtual Environment management tools.
+Filename: pool/bullseye/main/p/pve-manager/pve-manager_7.2-11_amd64.deb
+MD5sum: 4990b0a934f45c82891fa29c4c7d3e85
+SHA1: edb6d9cc61e3b35d7c7b40de4066fcd2749dd6b2
+SHA256: e814cd5689af97e50fe52b57f1e809adf3ff12f95067fdd9a8f1197a6db3356e
+SHA512: 0e64fa9dd177a5d5c9cdb57de35c461e7f8dd5f7357d05a1239586050adfe950b0fc0aed450ca74a3e41ffc8a70571a99f307ebb320b3198c83328fa95ed56da
+Size: 2079408
+
+Package: pve-manager
+Version: 7.3-2
+Architecture: amd64
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 10064
+Depends: apt-transport-https | apt (>= 1.5~), ca-certificates, cstream, dtach, fonts-font-awesome, gdisk, hdparm, ifupdown2 (>= 2.0.1-1+pve8) | ifenslave (>= 2.6), libapt-pkg-perl, libc6 (>= 2.14), libcrypt-ssleay-perl, libfile-readbackwards-perl, libfilesys-df-perl, libjs-extjs (>= 7.0.0), libjs-qrcodejs (>= 1.20201119), libjson-perl, liblwp-protocol-https-perl, libnet-dns-perl, libproxmox-acme-perl, libproxmox-acme-plugins, libproxmox-rs-perl (>= 0.2.0), libpve-access-control (>= 7.0-7), libpve-cluster-api-perl (>= 7.0-5), libpve-cluster-perl (>= 7.2-3), libpve-common-perl (>= 7.2-7), libpve-guest-common-perl (>= 4.2-1), libpve-http-server-perl (>= 4.1-1), libpve-rs-perl (>= 0.7.1), libpve-storage-perl (>= 7.2-12), librados2-perl (>= 1.3-1), libtemplate-perl, libterm-readline-gnu-perl, liburi-perl, libuuid-perl, libwww-perl (>= 6.04-1), logrotate, lsb-base, lzop, zstd, novnc-pve (>= 1.2.0-2~), pciutils, perl (>= 5.10.0-19), postfix | mail-transport-agent, proxmox-mail-forward, proxmox-mini-journalreader (>= 1.3-1), proxmox-widget-toolkit (>= 3.4-9), pve-cluster (>= 7.0-4), pve-container (>= 4.0-9), pve-docs, pve-firewall, pve-ha-manager, pve-i18n (>= 1.0-3), pve-xtermjs (>= 4.7.0-1), qemu-server (>= 7.2-8), rsync, spiceterm, systemd, vncterm, wget, perl:any
+Recommends: proxmox-offline-mirror-helper
+Suggests: libpve-network-perl (>= 0.5-1)
+Conflicts: vlan, vzdump
+Breaks: libpve-network-perl (<< 0.5-1)
+Replaces: vlan, vzdump
+Provides: vlan, vzdump
+Section: admin
+Priority: optional
+Description: Proxmox Virtual Environment Management Tools
+ This package contains the Proxmox Virtual Environment management tools.
+Filename: pool/bullseye/main/p/pve-manager/pve-manager_7.3-2_amd64.deb
+MD5sum: f1422c5a284d6f89ce0c5125a9e87a1e
+SHA1: 101dbf0a89dbb72f3586ab0145694fd49ed0c894
+SHA256: f66e4649c2eec7b9a72ab20e02372f4520235d49a29d08932a6a5e8c5f4c7590
+SHA512: 23db773b17a5e9b7b0959a5214cefe0485eb8ee9d29072e3acd605dda5e1b1fed41989609f8cca4fdba4534ad63618c1b384135b95b7807abc0a75bd8190e803
+Size: 2090096
+
+Package: pve-manager
+Version: 7.3-3
+Architecture: amd64
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 10064
+Depends: apt-transport-https | apt (>= 1.5~), ca-certificates, cstream, dtach, fonts-font-awesome, gdisk, hdparm, ifupdown2 (>= 2.0.1-1+pve8) | ifenslave (>= 2.6), libapt-pkg-perl, libc6 (>= 2.14), libcrypt-ssleay-perl, libfile-readbackwards-perl, libfilesys-df-perl, libjs-extjs (>= 7.0.0), libjs-qrcodejs (>= 1.20201119), libjson-perl, liblwp-protocol-https-perl, libnet-dns-perl, libproxmox-acme-perl, libproxmox-acme-plugins, libproxmox-rs-perl (>= 0.2.0), libpve-access-control (>= 7.0-7), libpve-cluster-api-perl (>= 7.0-5), libpve-cluster-perl (>= 7.2-3), libpve-common-perl (>= 7.2-7), libpve-guest-common-perl (>= 4.2-1), libpve-http-server-perl (>= 4.1-1), libpve-rs-perl (>= 0.7.1), libpve-storage-perl (>= 7.2-12), librados2-perl (>= 1.3-1), libtemplate-perl, libterm-readline-gnu-perl, liburi-perl, libuuid-perl, libwww-perl (>= 6.04-1), logrotate, lsb-base, lzop, zstd, novnc-pve (>= 1.2.0-2~), pciutils, perl (>= 5.10.0-19), postfix | mail-transport-agent, proxmox-mail-forward, proxmox-mini-journalreader (>= 1.3-1), proxmox-widget-toolkit (>= 3.4-9), pve-cluster (>= 7.0-4), pve-container (>= 4.0-9), pve-docs, pve-firewall, pve-ha-manager, pve-i18n (>= 1.0-3), pve-xtermjs (>= 4.7.0-1), qemu-server (>= 7.2-8), rsync, spiceterm, systemd, vncterm, wget, perl:any
+Recommends: proxmox-offline-mirror-helper
+Suggests: libpve-network-perl (>= 0.5-1)
+Conflicts: vlan, vzdump
+Breaks: libpve-network-perl (<< 0.5-1)
+Replaces: vlan, vzdump
+Provides: vlan, vzdump
+Section: admin
+Priority: optional
+Description: Proxmox Virtual Environment Management Tools
+ This package contains the Proxmox Virtual Environment management tools.
+Filename: pool/bullseye/main/p/pve-manager/pve-manager_7.3-3_amd64.deb
+MD5sum: d62c398050ec8252a75abe9201402909
+SHA1: d0afe6b40c23e26dee15e81413f9f8c40bce5718
+SHA256: 47333449ff50674a10ecb9009825ae7e6c5b9468f1e147a3b49a297bb5c14824
+SHA512: 329bf88b621cab332923b33a957873ef0a6bbd2c970449c0d49d087df0ce3f729c2314e325bf3372aa78ec4b7a3ec472b9414df5acf8ed0e3229f7c355fde730
+Size: 2090668
+
+Package: pve-manager
+Version: 7.3-4
+Architecture: amd64
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 10065
+Depends: apt-transport-https | apt (>= 1.5~), ca-certificates, cstream, dtach, fonts-font-awesome, gdisk, hdparm, ifupdown2 (>= 2.0.1-1+pve8) | ifenslave (>= 2.6), libapt-pkg-perl, libc6 (>= 2.14), libcrypt-ssleay-perl, libfile-readbackwards-perl, libfilesys-df-perl, libjs-extjs (>= 7.0.0), libjs-qrcodejs (>= 1.20201119), libjson-perl, liblwp-protocol-https-perl, libnet-dns-perl, libproxmox-acme-perl, libproxmox-acme-plugins, libproxmox-rs-perl (>= 0.2.0), libpve-access-control (>= 7.0-7), libpve-cluster-api-perl (>= 7.0-5), libpve-cluster-perl (>= 7.2-3), libpve-common-perl (>= 7.2-7), libpve-guest-common-perl (>= 4.2-1), libpve-http-server-perl (>= 4.1-1), libpve-rs-perl (>= 0.7.1), libpve-storage-perl (>= 7.2-12), librados2-perl (>= 1.3-1), libtemplate-perl, libterm-readline-gnu-perl, liburi-perl, libuuid-perl, libwww-perl (>= 6.04-1), logrotate, lsb-base, lzop, zstd, novnc-pve (>= 1.2.0-2~), pciutils, perl (>= 5.10.0-19), postfix | mail-transport-agent, proxmox-mail-forward, proxmox-mini-journalreader (>= 1.3-1), proxmox-widget-toolkit (>= 3.4-9), pve-cluster (>= 7.0-4), pve-container (>= 4.0-9), pve-docs, pve-firewall, pve-ha-manager, pve-i18n (>= 1.0-3), pve-xtermjs (>= 4.7.0-1), qemu-server (>= 7.2-8), rsync, spiceterm, systemd, vncterm, wget, perl:any
+Recommends: proxmox-offline-mirror-helper
+Suggests: libpve-network-perl (>= 0.5-1)
+Conflicts: vlan, vzdump
+Breaks: libpve-network-perl (<< 0.5-1)
+Replaces: vlan, vzdump
+Provides: vlan, vzdump
+Section: admin
+Priority: optional
+Description: Proxmox Virtual Environment Management Tools
+ This package contains the Proxmox Virtual Environment management tools.
+Filename: pool/bullseye/main/p/pve-manager/pve-manager_7.3-4_amd64.deb
+MD5sum: 5f31051d016f0b907c15328c725e7aad
+SHA1: 9a1171a96200576f684683b85f11b1e27aef622c
+SHA256: ec732f715c2a01c2b1047d003ad63c139e090cd75af1c14b72ac4b2270262f23
+SHA512: f61e9180f4b59db20b5da29a26026a629e19c4cb05acf0c8e449ae481a8615ccd88d1db479a76c5ad4c7f040f0b483fa2890632997d4e256142510e6452e1ebe
+Size: 2090984
+
+Package: pve-manager
+Version: 7.3-6
+Architecture: amd64
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 10078
+Depends: apt-transport-https | apt (>= 1.5~), ca-certificates, cstream, dtach, fonts-font-awesome, gdisk, hdparm, ifupdown2 (>= 2.0.1-1+pve8) | ifenslave (>= 2.6), libapt-pkg-perl, libc6 (>= 2.14), libcrypt-ssleay-perl, libfile-readbackwards-perl, libfilesys-df-perl, libjs-extjs (>= 7.0.0), libjs-qrcodejs (>= 1.20201119), libjson-perl, liblwp-protocol-https-perl, libnet-dns-perl, libproxmox-acme-perl, libproxmox-acme-plugins, libproxmox-rs-perl (>= 0.2.0), libpve-access-control (>= 7.0-7), libpve-cluster-api-perl (>= 7.0-5), libpve-cluster-perl (>= 7.2-3), libpve-common-perl (>= 7.2-7), libpve-guest-common-perl (>= 4.2-1), libpve-http-server-perl (>= 4.1-1), libpve-rs-perl (>= 0.7.1), libpve-storage-perl (>= 7.2-12), librados2-perl (>= 1.3-1), libtemplate-perl, libterm-readline-gnu-perl, liburi-perl, libuuid-perl, libwww-perl (>= 6.04-1), logrotate, lsb-base, lzop, zstd, novnc-pve (>= 1.2.0-2~), pciutils, perl (>= 5.10.0-19), postfix | mail-transport-agent, proxmox-mail-forward, proxmox-mini-journalreader (>= 1.3-1), proxmox-widget-toolkit (>= 3.4-9), pve-cluster (>= 7.0-4), pve-container (>= 4.0-9), pve-docs, pve-firewall, pve-ha-manager, pve-i18n (>= 1.0-3), pve-xtermjs (>= 4.7.0-1), qemu-server (>= 7.2-8), rsync, spiceterm, systemd, vncterm, wget, perl:any
+Recommends: proxmox-offline-mirror-helper
+Suggests: libpve-network-perl (>= 0.5-1)
+Conflicts: vlan, vzdump
+Breaks: libpve-network-perl (<< 0.5-1)
+Replaces: vlan, vzdump
+Provides: vlan, vzdump
+Section: admin
+Priority: optional
+Description: Proxmox Virtual Environment Management Tools
+ This package contains the Proxmox Virtual Environment management tools.
+Filename: pool/bullseye/main/p/pve-manager/pve-manager_7.3-6_amd64.deb
+MD5sum: 366a8a2c23bda2031f0f5e301b581373
+SHA1: 75c0e62df90bdab3dd428fa785bb06326ad1776d
+SHA256: c9518f5d0d06d909eabe5dbbe9d0ae30661047ec8a68f61cece2734648432f61
+SHA512: 4078927124934e2ce97960efa8de6c3618323df825b4fcbbc0a73dd8e2644546c814455b8346c483dc09eea972990b570bb7676b1709c416402fb529233e0d0c
+Size: 2094488
+
+Package: pve-qemu-kvm-dbg
+Source: pve-qemu-kvm
+Version: 7.0.0-3
+Architecture: amd64
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 84293
+Depends: pve-qemu-kvm (= 7.0.0-3)
+Section: debug
+Priority: optional
+Description: pve qemu debugging symbols
+ This package contains the debugging symbols for pve-qemu-kvm.
+Build-Ids: 0b79ba0f9f5154b74a99cdde4e70a440c8663856 128870b97ba251175d92229c98089415d8af3082 34e4f1e5a597311354f1789175e3ce58bc1c812b 3e8e22eff42c3789faea165e19cf5d3899135374 3f4337a7f16e5e4d5c85e4b319d5165b9024ac96 66b098531cf0387eb28295e1a1fe0de4b5cc39a8 6b568d77112d0f07069745e021db45166fde3a1f 830297cc041933c7792bb9cae7f87719601e4f13 87c4459313e4c682414dd7a90f165c5121ae2af8 8d4e0993d190ece0768590e6150519a10806cac1 a18c314029cba88a55adf675a33fa4505a571880 ac632228ff188348ca2057564b374f5375687840 f2feafc5c15e7409ba78238c741eb6ad874f81d2
+Filename: pool/bullseye/main/p/pve-qemu-kvm/pve-qemu-kvm-dbg_7.0.0-3_amd64.deb
+MD5sum: cd8cef3b9c1107ffefd31ccd4aa6d197
+SHA1: 3955b56e05fc925f61e7cce6d7bbbf3211caad80
+SHA256: d6ace0822afa0006201481f5cc27b01972e115750bb10af118f2c0bd0b2ad70e
+SHA512: 2e5b9cce9b2a9c8f021fcfd49e8bb92d4a377685c0db73ab8cac98e1e833e223f701a8b7d07f8ece27bba5cb4d0c9c4260c4a6d438e7b93c921e57d824b03fc8
+Size: 78572364
+
+Package: pve-qemu-kvm-dbg
+Source: pve-qemu-kvm
+Version: 7.0.0-4
+Architecture: amd64
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 84296
+Depends: pve-qemu-kvm (= 7.0.0-4)
+Section: debug
+Priority: optional
+Description: pve qemu debugging symbols
+ This package contains the debugging symbols for pve-qemu-kvm.
+Build-Ids: 1984598c03d6ecddc830dc0cdba68413fe6db4c8 1b40469c4c2cd682f9d25736c46e6e8407363ce9 1e973aedb3897c34be1e89351a3cddb6b4195957 2d7051f333a14fc5e25ba37a7417f0dd671e92b3 3edcdc687862d71d82d6bba4bba62d8b854cae3d 66b098531cf0387eb28295e1a1fe0de4b5cc39a8 73be2c46faa84b0df88facd88cc60e29745ded79 80816b007df0f76ae87ee9dc8f9e5062c602b864 87fbd0f755f39ccefc9081af3144802a1a24a80f 8d4e0993d190ece0768590e6150519a10806cac1 ac632228ff188348ca2057564b374f5375687840 ccc2642649a5486741531ad52dc81790a0f4f3bd eee6999743256227da9bf3af9e03abcd4cc9e5fc
+Filename: pool/bullseye/main/p/pve-qemu-kvm/pve-qemu-kvm-dbg_7.0.0-4_amd64.deb
+MD5sum: 1a365ef2b22e1f9ccf40bec13d6ed61f
+SHA1: 719789c0edb8dc89c62c49c2f4a7fc7c5b64584c
+SHA256: 63ab2292b6e1176acab93fb8a46f803f536cf28197542ea083a1fc86415f1bc1
+SHA512: 9697f6281599083ab089577ea618741a0ad1aacde84b627bb9922eacfb00f9d22a4c122252f5eb1b1a852e67eac43b49d2effb482a710ccb354df9851c71527a
+Size: 78648248
+
+Package: pve-qemu-kvm-dbg
+Source: pve-qemu-kvm
+Version: 7.2.0-1
+Architecture: amd64
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 89590
+Depends: pve-qemu-kvm (= 7.2.0-1)
+Section: debug
+Priority: optional
+Description: pve qemu debugging symbols
+ This package contains the debugging symbols for pve-qemu-kvm.
+Build-Ids: 119f99ccbfe0048d7208f61285f2d6d063dff855 277fb45ef5b2d60d30a029a2db1c62830f5341e6 2f5ca49885d4528041ecf2d61ce635176b016d37 47f40ea0a0f4b5d90eced730094b7a2d1f4e49df 5947958055995c3570a8026ca6c6989ee41afdb4 635640060041127c7dc894ffb58da83082ed0f33 977036fb5e014aa696efcbf82f985c36162eefb6 9ca75e076b237b7a7d9c34f479d0ac171f1c75f0 b3f043811426c3b0815b9e5210d09c9c2ddbd95b b8904ad1f4634a081e765bb4b4a7b406a0397655 cacad18db0d8cfc01fb8065c7fbc1cb56c402a76 d97cc947b42c91a8a3600fde9e0b16cc0c9a8b19 e7190cddf4e0af074a721f962144dde836f076a5
+Filename: pool/bullseye/main/p/pve-qemu-kvm/pve-qemu-kvm-dbg_7.2.0-1_amd64.deb
+MD5sum: 4a67c0693f981505d542e4542b299dc9
+SHA1: b12f235fdcb3f9f024e1a8e48181cfd1cf4e2925
+SHA256: 184ed784d87b412a0b1a392d26f7d99a710069fcab29c05d35657ac95ac3ba9a
+SHA512: aea0cf4777a5b3e6e64306b2f7ce2456a3119d83a80e4218572e37136281f4dca80939acb7830ce9943cc8ffcd3909ef57202d1c6f5222add32636d450f56054
+Size: 83396092
+
+Package: pve-qemu-kvm-dbg
+Source: pve-qemu-kvm
+Version: 7.2.0-2
+Architecture: amd64
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 89646
+Depends: pve-qemu-kvm (= 7.2.0-2)
+Section: debug
+Priority: optional
+Description: pve qemu debugging symbols
+ This package contains the debugging symbols for pve-qemu-kvm.
+Build-Ids: 36aebd3abc40f2f7156ff186b90cd7e6185d70a6 44004984ccaa986d356985b5be7e51abcab1d9de 47f40ea0a0f4b5d90eced730094b7a2d1f4e49df 5947958055995c3570a8026ca6c6989ee41afdb4 635640060041127c7dc894ffb58da83082ed0f33 7c61a72419777f170e908c19fa1bd870a16839a0 9b6477f7d9ee1550d2c769e630d850da43160519 a74418cf37e782123d84947cb828aeb454fd919b b3f043811426c3b0815b9e5210d09c9c2ddbd95b c041eb70c20ab1eba9a315a463801123748ef42d e7190cddf4e0af074a721f962144dde836f076a5 f8a9289dde71c0d48a64a9291cb705a60f264ded f8ce6236494315b46087a12259545652c2500a6d
+Filename: pool/bullseye/main/p/pve-qemu-kvm/pve-qemu-kvm-dbg_7.2.0-2_amd64.deb
+MD5sum: c7e11d59132657b4d2e1d98a41f4c65b
+SHA1: 85a02630b89025fd8c94e1456ca9901f8e2aba71
+SHA256: 89c63e20ee51451db1283482f44e0493edc7eb18117fe6f6516c4a895a0b6e02
+SHA512: 35b1490fd9ebab86e54855e72a2e0380f971e49a5c2bea9a29da3cc007c163c70180b2075dc45dfc664b4c551823f63b2a6e8aa949328fb9662bcd0ea77d15eb
+Size: 83394240
+
+Package: pve-qemu-kvm-dbg
+Source: pve-qemu-kvm
+Version: 7.2.0-3
+Architecture: amd64
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 89647
+Depends: pve-qemu-kvm (= 7.2.0-3)
+Section: debug
+Priority: optional
+Description: pve qemu debugging symbols
+ This package contains the debugging symbols for pve-qemu-kvm.
+Build-Ids: 2e7b04d517c1273454d842464384ec2bf286b03c 2fde0f51425ae8a019f65d8982164006d95389c0 47f40ea0a0f4b5d90eced730094b7a2d1f4e49df 5947958055995c3570a8026ca6c6989ee41afdb4 635640060041127c7dc894ffb58da83082ed0f33 668ed96f489f1d1c5486547959fdcc51e502a36e 6c9b06c337db856548b35430fb46a0ae582a8c34 8bb8be8a27694bcfbf811d5b96f5670869ee8577 ac70fe617bec429dbed2da97590c0af6d349b4e4 b3f043811426c3b0815b9e5210d09c9c2ddbd95b c2efa87eef8b7dbef5cd1b98bd9e04ec1b45899e e7190cddf4e0af074a721f962144dde836f076a5 f1eb8af24bc43fa7699dbaf308377eb168946401
+Filename: pool/bullseye/main/p/pve-qemu-kvm/pve-qemu-kvm-dbg_7.2.0-3_amd64.deb
+MD5sum: a8a797860be03fad23d2423fe21b22ab
+SHA1: 45dd0fd4316c69bbf3086bb3d260f9541f00e525
+SHA256: 104d0b3be7944cc3acf32d611d903fbe1d65ff261d0b568a7c03126c9dd9fb94
+SHA512: 9be2b0034765e2c46f5130e81702794a6281d8f73a57a7cc53ce01b9e3bd6fd4a3b92744a6f865ad831db06c8975148812738efc8c0b59ef294a533d6373b56f
+Size: 83432628
+
+Package: pve-qemu-kvm-dbg
+Source: pve-qemu-kvm
+Version: 7.2.0-4
+Architecture: amd64
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 89646
+Depends: pve-qemu-kvm (= 7.2.0-4)
+Section: debug
+Priority: optional
+Description: pve qemu debugging symbols
+ This package contains the debugging symbols for pve-qemu-kvm.
+Build-Ids: 0da78e38617e3ccc744e91d6db1dfef2a97bbf4e 33ff0e13f489225df0a608a6ddae9ba9b6788a1d 35dc15b0da2a88ecec97a17d6f5e94202c0cec8f 43bc28b1f1e0ba05e8ff394c0205202cce2e7e11 47f40ea0a0f4b5d90eced730094b7a2d1f4e49df 4c298f1fb58084af13a21f46fab857a6cbc6806a 635640060041127c7dc894ffb58da83082ed0f33 653f52e26320deeea194b15c9bea203fd9ee1c46 6d55f379a4ac85d209a1298574fde4ce88e2e09e 81a579c6406d1d79656b023ff1b1bc3572c42f13 9115d7bd6d63a8849f7bae409d36b9357bf37a59 e7190cddf4e0af074a721f962144dde836f076a5 fca37faeb60f960c157cfe319c92e7d69ab05776
+Filename: pool/bullseye/main/p/pve-qemu-kvm/pve-qemu-kvm-dbg_7.2.0-4_amd64.deb
+MD5sum: b1063537911841d397af956c15034d7f
+SHA1: 586952703a5e5b5e49ff6aa495ef89b766ab4cf0
+SHA256: 02fb5b78295d05c4209c488d09f57df26b0e10b67c70ffaedea123479dbe72e0
+SHA512: f656f1af0deeed720344fe8a69f244bc00f66b6030ce6221c20d8d9cde832d099259b94e45e941cf7fd3bf1cb89c55be6097b1b4637db78d3fb1b02a0030540a
+Size: 83354340
+
+Package: pve-qemu-kvm-dbg
+Source: pve-qemu-kvm
+Version: 7.2.0-5
+Architecture: amd64
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 89676
+Depends: pve-qemu-kvm (= 7.2.0-5)
+Section: debug
+Priority: optional
+Description: pve qemu debugging symbols
+ This package contains the debugging symbols for pve-qemu-kvm.
+Build-Ids: 00500ebab7e275bd57a0f7418dc88be4d80da445 005eeba2a7cdcfa49dc0a1521fc6ec0bec955f41 197495015b1546bdb84bcc12c02c10497dbf4964 2171aef425f9d8d9643d3796a28b0082fa5aa9d1 63b721c8523a28aa2eff521faedc120391c69f6f 722f945e471f0552486ab434dd6b0435f589c466 7836040ec894826a2a672501a8f66529b62a8194 8caeb0f4cd139199a03ee5bbc26858ab3fd2a4d7 9ff91822ac9dfd90718479131a3a5664f34892de c0332fc934d24d24851383f1368cc52eb6e36bfb c2d50d5f9a12cdc375319df3da6767657bbe1d8c df7289fd57423d042a7e57447922054afe23c1de edea6685da80ff25d0cf9309d1393351125a81e9
+Filename: pool/bullseye/main/p/pve-qemu-kvm/pve-qemu-kvm-dbg_7.2.0-5_amd64.deb
+MD5sum: 603367bf8817f4be37207aeb0e11b170
+SHA1: 54c595d8385a68d72efefcfa4c9c3e0ce50b0965
+SHA256: 45401c4d1be0f3488f2950a09e0e5eb8b903d9ad5a1f7a2988292f07613f316b
+SHA512: 9b7b8d1b9d6c2268845a5a6999075302206ef7981407228dd81c09bf5575105601b1974fd179ecfe8eebdf1d51f48b90d9ba5aa0cb553596e91bd86496759944
+Size: 83495260
+
+Package: pve-qemu-kvm
+Version: 7.0.0-3
+Architecture: amd64
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 282873
+Depends: ceph-common (>= 0.48), iproute2, libgfapi0 | glusterfs-common (>= 5.6), libgfchangelog0 | glusterfs-common (>= 5.6), libgfdb0 | glusterfs-common (>= 5.6), libgfrpc0 | glusterfs-common (>= 5.6), libgfxdr0 | glusterfs-common (>= 5.6), libglusterfs-dev | glusterfs-common (>= 5.6), libglusterfs0 | glusterfs-common (>= 5.6), libiscsi7 (>= 1.18.0), libjemalloc2, libjpeg62-turbo (>= 1.3.1), libspice-server1 (>= 0.14.2), libusb-1.0-0 (>= 2:1.0.23~), libusbredirparser1 (>= 0.6-2), libuuid1 (>= 2.16), libaio1 (>= 0.3.93), libasound2 (>= 1.0.16), libc6 (>= 2.29), libcap-ng0 (>= 0.7.9), libcurl3-gnutls (>= 7.16.3), libepoxy0 (>= 1.3), libfdt1 (>= 1.6.0), libgbm1 (>= 12.0.0~0), libgcc-s1 (>= 4.7), libglib2.0-0 (>= 2.57.2), libgnutls30 (>= 3.7.0), libnuma1 (>= 2.0.11), libpixman-1-0 (>= 0.30.0), libpng16-16 (>= 1.6.2-1), libproxmox-backup-qemu0 (>= 1.3.0), libpulse0 (>= 0.99.1), librados2 (>= 0.72.2), librbd1 (>= 14.2.15), libseccomp2 (>= 2.1.0), libselinux1 (>= 3.1~), libstdc++6 (>= 4.6), libsystemd0, libudev1 (>= 183), liburing1 (>= 0.7), libvirglrenderer1 (>= 0.8.0), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.2.0)
+Recommends: numactl
+Suggests: libgl1
+Conflicts: kvm, pve-kvm, pve-qemu-kvm-2.6.18, qemu, qemu-kvm, qemu-system-arm, qemu-system-common, qemu-system-x86, qemu-utils
+Replaces: pve-kvm, pve-qemu-kvm-2.6.18, qemu-system-arm, qemu-system-x86, qemu-utils
+Provides: qemu-system-arm, qemu-system-x86, qemu-utils
+Section: admin
+Priority: optional
+Description: Full virtualization on x86 hardware
+ Using KVM, one can run multiple virtual PCs, each running unmodified Linux or
+ Windows images. Each virtual machine has private virtualized hardware: a
+ network card, disk, graphics adapter, etc.
+Filename: pool/bullseye/main/p/pve-qemu-kvm/pve-qemu-kvm_7.0.0-3_amd64.deb
+MD5sum: fbb23e0e5740cf7bb0bb079dfa4c4ebd
+SHA1: d146198b35e0c17909fb226673b5b37b6af6b4b2
+SHA256: 30a7a3702e16cbff65ce12ce6c34bb64e87f170764e485bfd459d1c0bf70e19f
+SHA512: ed27f602aeeec83bd0951fd496ce3b3f71d3f6ff7f753b9f87cd374cd61e009f319c847692e4e79e040c2cb5ff59d7a570664a0b062c64e791ca74601b484d64
+Size: 24895788
+
+Package: pve-qemu-kvm
+Version: 7.0.0-4
+Architecture: amd64
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 282874
+Depends: ceph-common (>= 0.48), iproute2, libgfapi0 | glusterfs-common (>= 5.6), libgfchangelog0 | glusterfs-common (>= 5.6), libgfdb0 | glusterfs-common (>= 5.6), libgfrpc0 | glusterfs-common (>= 5.6), libgfxdr0 | glusterfs-common (>= 5.6), libglusterfs-dev | glusterfs-common (>= 5.6), libglusterfs0 | glusterfs-common (>= 5.6), libiscsi7 (>= 1.18.0), libjemalloc2, libjpeg62-turbo (>= 1.3.1), libspice-server1 (>= 0.14.2), libusb-1.0-0 (>= 2:1.0.23~), libusbredirparser1 (>= 0.6-2), libuuid1 (>= 2.16), libaio1 (>= 0.3.93), libasound2 (>= 1.0.16), libc6 (>= 2.29), libcap-ng0 (>= 0.7.9), libcurl3-gnutls (>= 7.16.3), libepoxy0 (>= 1.3), libfdt1 (>= 1.6.0), libgbm1 (>= 12.0.0~0), libgcc-s1 (>= 4.7), libglib2.0-0 (>= 2.57.2), libgnutls30 (>= 3.7.0), libnuma1 (>= 2.0.11), libpixman-1-0 (>= 0.30.0), libpng16-16 (>= 1.6.2-1), libproxmox-backup-qemu0 (>= 1.3.0), libpulse0 (>= 0.99.1), librados2 (>= 0.72.2), librbd1 (>= 14.2.15), libseccomp2 (>= 2.1.0), libselinux1 (>= 3.1~), libstdc++6 (>= 4.6), libsystemd0, libudev1 (>= 183), liburing1 (>= 0.7), libvirglrenderer1 (>= 0.8.0), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.2.0)
+Recommends: numactl
+Suggests: libgl1
+Conflicts: kvm, pve-kvm, pve-qemu-kvm-2.6.18, qemu, qemu-kvm, qemu-system-arm, qemu-system-common, qemu-system-x86, qemu-utils
+Replaces: pve-kvm, pve-qemu-kvm-2.6.18, qemu-system-arm, qemu-system-x86, qemu-utils
+Provides: qemu-system-arm, qemu-system-x86, qemu-utils
+Section: admin
+Priority: optional
+Description: Full virtualization on x86 hardware
+ Using KVM, one can run multiple virtual PCs, each running unmodified Linux or
+ Windows images. Each virtual machine has private virtualized hardware: a
+ network card, disk, graphics adapter, etc.
+Filename: pool/bullseye/main/p/pve-qemu-kvm/pve-qemu-kvm_7.0.0-4_amd64.deb
+MD5sum: 4044104677fc4bda92a5c4ceecb1b58c
+SHA1: 2577a2f63f6b257c8f0c44533d37b3f7c216f05a
+SHA256: 28b65ec9b02492a4b7bc6317a310b69a677181a7cfdba556cbc3e5c11bd1a3e5
+SHA512: 12885a2f011e173963bd41be0a7521d5d550f4cdd7e417a3044d89a9a0dbceeae1db1e5584ac079c33c5f9405e62fe5dba807185ac9195637713204095152be7
+Size: 24892804
+
+Package: pve-qemu-kvm
+Version: 7.2.0-1
+Architecture: amd64
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 290844
+Depends: ceph-common (>= 0.48), iproute2, libgfapi0 | glusterfs-common (>= 5.6), libgfchangelog0 | glusterfs-common (>= 5.6), libgfdb0 | glusterfs-common (>= 5.6), libgfrpc0 | glusterfs-common (>= 5.6), libgfxdr0 | glusterfs-common (>= 5.6), libglusterfs-dev | glusterfs-common (>= 5.6), libglusterfs0 | glusterfs-common (>= 5.6), libiscsi7 (>= 1.18.0), libjemalloc2, libjpeg62-turbo (>= 1.3.1), libspice-server1 (>= 0.14.2), libusb-1.0-0 (>= 2:1.0.23~), libusbredirparser1 (>= 0.6-2), libuuid1 (>= 2.16), libaio1 (>= 0.3.93), libasound2 (>= 1.0.16), libc6 (>= 2.30), libcap-ng0 (>= 0.7.9), libcurl3-gnutls (>= 7.16.3), libepoxy0 (>= 1.3), libfdt1 (>= 1.6.0), libgbm1 (>= 12.0.0~0), libgcc-s1 (>= 4.7), libglib2.0-0 (>= 2.61.2), libgnutls30 (>= 3.7.0), libnuma1 (>= 2.0.11), libpixman-1-0 (>= 0.30.0), libpng16-16 (>= 1.6.2-1), libproxmox-backup-qemu0 (>= 1.3.0), libpulse0 (>= 0.99.1), librados2 (>= 0.72.2), librbd1 (>= 14.2.15), libseccomp2 (>= 2.1.0), libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), liburing1 (>= 0.7), libvirglrenderer1 (>= 0.8.0), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.2.0)
+Recommends: numactl
+Suggests: libgl1
+Conflicts: kvm, pve-kvm, pve-qemu-kvm-2.6.18, qemu, qemu-kvm, qemu-system-arm, qemu-system-common, qemu-system-x86, qemu-utils
+Replaces: pve-kvm, pve-qemu-kvm-2.6.18, qemu-system-arm, qemu-system-x86, qemu-utils
+Provides: qemu-system-arm, qemu-system-x86, qemu-utils
+Section: admin
+Priority: optional
+Description: Full virtualization on x86 hardware
+ Using KVM, one can run multiple virtual PCs, each running unmodified Linux or
+ Windows images. Each virtual machine has private virtualized hardware: a
+ network card, disk, graphics adapter, etc.
+Filename: pool/bullseye/main/p/pve-qemu-kvm/pve-qemu-kvm_7.2.0-1_amd64.deb
+MD5sum: 821134b33f2e458de1f2e93aced2b488
+SHA1: 692774d397a5377349fc1cb5c2fbc38baf310eaf
+SHA256: 46ac6dbd9f1f158556d821afce6a5785ea272dc2cd3e2d51a9109e3c04c1af1d
+SHA512: e5b8b944a9b6bbf54194bc470b2a0a62f301c61e02af4e40a4881495e6110cd3c34084efd44c243b7e71e38ee693b6e8e6da8ec96f0c824887fc08666aee33c8
+Size: 25827688
+
+Package: pve-qemu-kvm
+Version: 7.2.0-2
+Architecture: amd64
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 290873
+Depends: ceph-common (>= 0.48), iproute2, libgfapi0 | glusterfs-common (>= 5.6), libgfchangelog0 | glusterfs-common (>= 5.6), libgfdb0 | glusterfs-common (>= 5.6), libgfrpc0 | glusterfs-common (>= 5.6), libgfxdr0 | glusterfs-common (>= 5.6), libglusterfs-dev | glusterfs-common (>= 5.6), libglusterfs0 | glusterfs-common (>= 5.6), libiscsi7 (>= 1.18.0), libjpeg62-turbo (>= 1.3.1), libspice-server1 (>= 0.14.2), libusb-1.0-0 (>= 2:1.0.23~), libusbredirparser1 (>= 0.6-2), libuuid1 (>= 2.16), libaio1 (>= 0.3.93), libasound2 (>= 1.0.16), libc6 (>= 2.30), libcap-ng0 (>= 0.7.9), libcurl3-gnutls (>= 7.16.3), libepoxy0 (>= 1.3), libfdt1 (>= 1.6.0), libgbm1 (>= 12.0.0~0), libgcc-s1 (>= 4.7), libglib2.0-0 (>= 2.61.2), libgnutls30 (>= 3.7.0), libnuma1 (>= 2.0.11), libpixman-1-0 (>= 0.30.0), libpng16-16 (>= 1.6.2-1), libproxmox-backup-qemu0 (>= 1.3.0), libpulse0 (>= 0.99.1), librados2 (>= 0.72.2), librbd1 (>= 14.2.15), libseccomp2 (>= 2.1.0), libselinux1 (>= 3.1~), libslirp0 (>= 4.1.0), libsystemd0, libudev1 (>= 183), liburing1 (>= 0.7), libvirglrenderer1 (>= 0.8.0), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.2.0)
+Recommends: numactl
+Suggests: libgl1
+Conflicts: kvm, pve-kvm, pve-qemu-kvm-2.6.18, qemu, qemu-kvm, qemu-system-arm, qemu-system-common, qemu-system-x86, qemu-utils
+Replaces: pve-kvm, pve-qemu-kvm-2.6.18, qemu-system-arm, qemu-system-x86, qemu-utils
+Provides: qemu-system-arm, qemu-system-x86, qemu-utils
+Section: admin
+Priority: optional
+Description: Full virtualization on x86 hardware
+ Using KVM, one can run multiple virtual PCs, each running unmodified Linux or
+ Windows images. Each virtual machine has private virtualized hardware: a
+ network card, disk, graphics adapter, etc.
+Filename: pool/bullseye/main/p/pve-qemu-kvm/pve-qemu-kvm_7.2.0-2_amd64.deb
+MD5sum: 69c4462bfd86d58e2f70f1f192e4e2f9
+SHA1: 58da3348b29dc9e2f791dd36e986f206fc23c428
+SHA256: cb1fa0542a1847b8e146b01dde5e49943ac8e4e0862f4dc3dae29bc00ed74ab5
+SHA512: 772aa654cd9261194c3fe47239bda4232d71a55de2ff3d85ce03f841489eeb583defa8b335a45090650a7d5dfb5ac6997d0fe7a02f02243055cfde17bc6843c8
+Size: 25829464
+
+Package: pve-qemu-kvm
+Version: 7.2.0-3
+Architecture: amd64
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 290873
+Depends: ceph-common (>= 0.48), iproute2, libgfapi0 | glusterfs-common (>= 5.6), libgfchangelog0 | glusterfs-common (>= 5.6), libgfdb0 | glusterfs-common (>= 5.6), libgfrpc0 | glusterfs-common (>= 5.6), libgfxdr0 | glusterfs-common (>= 5.6), libglusterfs-dev | glusterfs-common (>= 5.6), libglusterfs0 | glusterfs-common (>= 5.6), libiscsi7 (>= 1.18.0), libjpeg62-turbo (>= 1.3.1), libspice-server1 (>= 0.14.2), libusb-1.0-0 (>= 2:1.0.23~), libusbredirparser1 (>= 0.6-2), libuuid1 (>= 2.16), libaio1 (>= 0.3.93), libasound2 (>= 1.0.16), libc6 (>= 2.30), libcap-ng0 (>= 0.7.9), libcurl3-gnutls (>= 7.16.3), libepoxy0 (>= 1.3), libfdt1 (>= 1.6.0), libgbm1 (>= 12.0.0~0), libgcc-s1 (>= 4.7), libglib2.0-0 (>= 2.61.2), libgnutls30 (>= 3.7.0), libnuma1 (>= 2.0.11), libpixman-1-0 (>= 0.30.0), libpng16-16 (>= 1.6.2-1), libproxmox-backup-qemu0 (>= 1.3.0), libpulse0 (>= 0.99.1), librados2 (>= 0.72.2), librbd1 (>= 14.2.15), libseccomp2 (>= 2.1.0), libselinux1 (>= 3.1~), libslirp0 (>= 4.1.0), libsystemd0, libudev1 (>= 183), liburing1 (>= 0.7), libvirglrenderer1 (>= 0.8.0), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.2.0)
+Recommends: numactl
+Suggests: libgl1
+Conflicts: kvm, pve-kvm, pve-qemu-kvm-2.6.18, qemu, qemu-kvm, qemu-system-arm, qemu-system-common, qemu-system-x86, qemu-utils
+Replaces: pve-kvm, pve-qemu-kvm-2.6.18, qemu-system-arm, qemu-system-x86, qemu-utils
+Provides: qemu-system-arm, qemu-system-x86, qemu-utils
+Section: admin
+Priority: optional
+Description: Full virtualization on x86 hardware
+ Using KVM, one can run multiple virtual PCs, each running unmodified Linux or
+ Windows images. Each virtual machine has private virtualized hardware: a
+ network card, disk, graphics adapter, etc.
+Filename: pool/bullseye/main/p/pve-qemu-kvm/pve-qemu-kvm_7.2.0-3_amd64.deb
+MD5sum: d5f75f75e435c9caa5bb945aa462c958
+SHA1: 124ed99410549b168dab1a2c4150dd58656bf127
+SHA256: 17b8bf22c306714fc6654e341f6722c980757adfe6b1f63d5a509bfce52aeb68
+SHA512: 624875cd95e51adb247b8cbd24efc01c16fe04208604a592c6b2fbe60d90ca9da856314a1769c561a901998b14c01ae0977875c12fedc68324805696cefe8559
+Size: 25830044
+
+Package: pve-qemu-kvm
+Version: 7.2.0-4
+Architecture: amd64
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 290873
+Depends: ceph-common (>= 0.48), iproute2, libgfapi0 | glusterfs-common (>= 5.6), libgfchangelog0 | glusterfs-common (>= 5.6), libgfdb0 | glusterfs-common (>= 5.6), libgfrpc0 | glusterfs-common (>= 5.6), libgfxdr0 | glusterfs-common (>= 5.6), libglusterfs-dev | glusterfs-common (>= 5.6), libglusterfs0 | glusterfs-common (>= 5.6), libiscsi7 (>= 1.18.0), libjpeg62-turbo (>= 1.3.1), libspice-server1 (>= 0.14.2), libusb-1.0-0 (>= 2:1.0.23~), libusbredirparser1 (>= 0.6-2), libuuid1 (>= 2.16), libaio1 (>= 0.3.93), libasound2 (>= 1.0.16), libc6 (>= 2.30), libcap-ng0 (>= 0.7.9), libcurl3-gnutls (>= 7.16.3), libepoxy0 (>= 1.3), libfdt1 (>= 1.6.0), libgbm1 (>= 12.0.0~0), libgcc-s1 (>= 4.7), libglib2.0-0 (>= 2.61.2), libgnutls30 (>= 3.7.0), libnuma1 (>= 2.0.11), libpixman-1-0 (>= 0.30.0), libpng16-16 (>= 1.6.2-1), libproxmox-backup-qemu0 (>= 1.3.0), libpulse0 (>= 0.99.1), librados2 (>= 0.72.2), librbd1 (>= 14.2.15), libseccomp2 (>= 2.1.0), libselinux1 (>= 3.1~), libslirp0 (>= 4.1.0), libsystemd0, libudev1 (>= 183), liburing1 (>= 0.7), libvirglrenderer1 (>= 0.8.0), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.2.0)
+Recommends: numactl
+Suggests: libgl1
+Conflicts: kvm, pve-kvm, pve-qemu-kvm-2.6.18, qemu, qemu-kvm, qemu-system-arm, qemu-system-common, qemu-system-data, qemu-system-x86, qemu-utils
+Replaces: pve-kvm, pve-qemu-kvm-2.6.18, qemu-system-arm, qemu-system-x86, qemu-utils
+Provides: qemu-system-arm, qemu-system-x86, qemu-utils
+Section: admin
+Priority: optional
+Description: Full virtualization on x86 hardware
+ Using KVM, one can run multiple virtual PCs, each running unmodified Linux or
+ Windows images. Each virtual machine has private virtualized hardware: a
+ network card, disk, graphics adapter, etc.
+Filename: pool/bullseye/main/p/pve-qemu-kvm/pve-qemu-kvm_7.2.0-4_amd64.deb
+MD5sum: 091f9e4f4ae953adc11d660b0ffe82b6
+SHA1: 0bff91febf6103061a94255e262961d86307a834
+SHA256: d59d627a1d322f7c1c96fcc3fedca9b74c2d1e842ee3c4f64bde87e8681a009d
+SHA512: ef8d5ee5eb6cd560019bf788795283be5a2b71ede9c8f91292ac4cc61d8a5ce23b4f486b056860c91da3026866b740574b2c44ebca6d059adb32069e5697c82b
+Size: 25836772
+
+Package: pve-qemu-kvm
+Version: 7.2.0-5
+Architecture: amd64
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 290872
+Depends: ceph-common (>= 0.48), iproute2, libgfapi0 | glusterfs-common (>= 5.6), libgfchangelog0 | glusterfs-common (>= 5.6), libgfdb0 | glusterfs-common (>= 5.6), libgfrpc0 | glusterfs-common (>= 5.6), libgfxdr0 | glusterfs-common (>= 5.6), libglusterfs-dev | glusterfs-common (>= 5.6), libglusterfs0 | glusterfs-common (>= 5.6), libiscsi7 (>= 1.18.0), libjpeg62-turbo (>= 1.3.1), libspice-server1 (>= 0.14.2), libusb-1.0-0 (>= 2:1.0.23~), libusbredirparser1 (>= 0.6-2), libuuid1 (>= 2.16), libaio1 (>= 0.3.93), libasound2 (>= 1.0.16), libc6 (>= 2.30), libcap-ng0 (>= 0.7.9), libcurl3-gnutls (>= 7.16.3), libepoxy0 (>= 1.3), libfdt1 (>= 1.6.0), libgbm1 (>= 12.0.0~0), libgcc-s1 (>= 4.7), libglib2.0-0 (>= 2.61.2), libgnutls30 (>= 3.7.0), libnuma1 (>= 2.0.11), libpixman-1-0 (>= 0.30.0), libpng16-16 (>= 1.6.2-1), libproxmox-backup-qemu0 (>= 1.3.0), libpulse0 (>= 0.99.1), librados2 (>= 0.72.2), librbd1 (>= 14.2.15), libseccomp2 (>= 2.1.0), libselinux1 (>= 3.1~), libslirp0 (>= 4.1.0), libsystemd0, libudev1 (>= 183), liburing1 (>= 0.7), libvirglrenderer1 (>= 0.8.0), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.2.0)
+Recommends: numactl
+Suggests: libgl1
+Conflicts: kvm, pve-kvm, pve-qemu-kvm-2.6.18, qemu, qemu-kvm, qemu-system-arm, qemu-system-common, qemu-system-data, qemu-system-x86, qemu-utils
+Replaces: pve-kvm, pve-qemu-kvm-2.6.18, qemu-system-arm, qemu-system-x86, qemu-utils
+Provides: qemu-system-arm, qemu-system-x86, qemu-utils
+Section: admin
+Priority: optional
+Description: Full virtualization on x86 hardware
+ Using KVM, one can run multiple virtual PCs, each running unmodified Linux or
+ Windows images. Each virtual machine has private virtualized hardware: a
+ network card, disk, graphics adapter, etc.
+Filename: pool/bullseye/main/p/pve-qemu-kvm/pve-qemu-kvm_7.2.0-5_amd64.deb
+MD5sum: efe825420c18e6f1ef5324b937fb837c
+SHA1: 86c8584f6e13eab48b5bbde60bf92e51af735787
+SHA256: 36e311f8b5a023a9ce16770a840ee4fc1032712cbd0ba2d34b5a421e968afa97
+SHA512: 8c67bded515cd85498fd5978751516f38d9ef4698c91521194a86e44bc85f7fe2afaaff458f7fe00043cac335d235edc29cb7999587c340a0c0e3449c0491296
+Size: 25842592
+
+Package: qemu-server-dbgsym
+Source: qemu-server
+Version: 7.2-4
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 35
+Depends: qemu-server (= 7.2-4)
+Section: debug
+Priority: optional
+Description: debug symbols for qemu-server
+Build-Ids: 149475480ec0ff6e2fe9261f9e379df074e421a2
+Filename: pool/bullseye/main/q/qemu-server/qemu-server-dbgsym_7.2-4_amd64.deb
+MD5sum: 6e81e10c55212383a44dfd5d91414b13
+SHA1: b8b5e888242ab35b271990e7efdaf0f065317afc
+SHA256: 3a54d163b3847fc2a3bad35e1bc46cd408ba22008769e66229a519f27693afdb
+SHA512: dadf96b336c1b6e2e1f588ae11d10882bf37dc44dd25c71748cdde19cc810a9f149930dbe0bc653920dbb84696d59536c132b3798e7284c939974ca003c45792
+Size: 18916
+
+Package: qemu-server-dbgsym
+Source: qemu-server
+Version: 7.2-10
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 35
+Depends: qemu-server (= 7.2-10)
+Section: debug
+Priority: optional
+Description: debug symbols for qemu-server
+Build-Ids: f7976c3d02027b4d589ad88503709b09425ecaa1
+Filename: pool/bullseye/main/q/qemu-server/qemu-server-dbgsym_7.2-10_amd64.deb
+MD5sum: 0d467097557268858805fe041320ea9b
+SHA1: 1d36255e113937b5c5ab80db1bd1f298aa2df003
+SHA256: cfb252d1daf83dc19887806ec171beaeb7ef2d587d795dc1cb8228854ecda70c
+SHA512: 5b6c37ee48795b87316f1dbce77aa0bd33bc01796ac34b42ba1e04007d8be0489fdfad04880d0e250b79767c2e98800f112a155e2b2a6e3189c3b54e3c53c158
+Size: 19168
+
+Package: qemu-server-dbgsym
+Source: qemu-server
+Version: 7.2-12
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 35
+Depends: qemu-server (= 7.2-12)
+Section: debug
+Priority: optional
+Description: debug symbols for qemu-server
+Build-Ids: f7976c3d02027b4d589ad88503709b09425ecaa1
+Filename: pool/bullseye/main/q/qemu-server/qemu-server-dbgsym_7.2-12_amd64.deb
+MD5sum: 6664724cca560420ebbd977dbd93b859
+SHA1: 3f79397fdec69148fbb021dd38cdcae6173f043a
+SHA256: 776aeb592d7d37d2b23439142d6865e5799809152b9707ddba45dd8c5e065962
+SHA512: 11b6027fb66035431c5ad4f43072a3a5429e10bb7d120b79dc9e26a0ab724391024d5532741c7ad6ae5ce572375929d9c9b0f58c65c93cce4c6a2602372f1ae6
+Size: 19164
+
+Package: qemu-server-dbgsym
+Source: qemu-server
+Version: 7.3-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 35
+Depends: qemu-server (= 7.3-1)
+Section: debug
+Priority: optional
+Description: debug symbols for qemu-server
+Build-Ids: f7976c3d02027b4d589ad88503709b09425ecaa1
+Filename: pool/bullseye/main/q/qemu-server/qemu-server-dbgsym_7.3-1_amd64.deb
+MD5sum: 7f47098fab858f2e551804a437313046
+SHA1: 31048e3bbe017ef4b8b9043c6282609c7b9313f1
+SHA256: 48d8923af8353367da4a5fa7b710973fef5ad0ab0cad88a008725dfcebbb4a18
+SHA512: fcec4bee782fae068438c7d9fb62dab17f160eb242abd416589763aac8fd659eea72ae017ffaafe827aef77cd8d87f830eea9828788d878deddbe190f857c968
+Size: 19168
+
+Package: qemu-server-dbgsym
+Source: qemu-server
+Version: 7.3-2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 35
+Depends: qemu-server (= 7.3-2)
+Section: debug
+Priority: optional
+Description: debug symbols for qemu-server
+Build-Ids: f7976c3d02027b4d589ad88503709b09425ecaa1
+Filename: pool/bullseye/main/q/qemu-server/qemu-server-dbgsym_7.3-2_amd64.deb
+MD5sum: ecefcebc1183934f4466cba2142fdfaa
+SHA1: 3072f27c6255cb1ade52277a08249934dee5db3b
+SHA256: 8a38dd0d716d2de079ee599afdd882bb49cfbb067fb0a00cbaacc71d9098eb11
+SHA512: d489e66073979644e6c0ef73741d2f78756f34e52448da8d86b1e7fd8266fa3079289734ed8ea0a3c9f25f1090158e27085eb2b8ab59903e54683c762c98087e
+Size: 19168
+
+Package: qemu-server-dbgsym
+Source: qemu-server
+Version: 7.3-3
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 35
+Depends: qemu-server (= 7.3-3)
+Section: debug
+Priority: optional
+Description: debug symbols for qemu-server
+Build-Ids: f7976c3d02027b4d589ad88503709b09425ecaa1
+Filename: pool/bullseye/main/q/qemu-server/qemu-server-dbgsym_7.3-3_amd64.deb
+MD5sum: 5749a892b5f3b742df33d32734fdea5e
+SHA1: 6fdcd0f120675255e118b26e30978c1469a9067c
+SHA256: a554fb2b1d75815c339adb91730f8dd9b37219a08fedbe0c02f4e976c9900e1c
+SHA512: 05b32a2cc2c757cbfdda824286e26fc04194118d07da3d892aa0f2e1b0b4af2b665462f75d3cbba607d617e2bae04d2714a5888d46466462c9154cc75625fad0
+Size: 19168
+
+Package: qemu-server-dbgsym
+Source: qemu-server
+Version: 7.3-4
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 35
+Depends: qemu-server (= 7.3-4)
+Section: debug
+Priority: optional
+Description: debug symbols for qemu-server
+Build-Ids: f7976c3d02027b4d589ad88503709b09425ecaa1
+Filename: pool/bullseye/main/q/qemu-server/qemu-server-dbgsym_7.3-4_amd64.deb
+MD5sum: 54b11f688cea1bc04e2f7000aa02b1c9
+SHA1: 2cf1062c1ed469a570ead61591efe4d789a4f6ac
+SHA256: f7958f9670cae8b6448971901f503ec00fc5e01cdfaf69ed077e50b8818f8884
+SHA512: 474af867f60b009d3b6c3aa3a092e7d1247953ce2e3dbd603dcdd95a08f80ee585ea6f0fd604be6ee50cd8e1a7b104eb388197e412fd85d9a8b3076e667190ee
+Size: 19168
+
+Package: qemu-server
+Version: 7.2-4
+Architecture: amd64
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 862
+Depends: dbus, genisoimage, libio-multiplex-perl, libjson-perl, libjson-xs-perl, libnet-ssleay-perl, libpve-access-control (>= 5.0-7), libpve-cluster-perl, libpve-common-perl (>= 7.1-3), libpve-guest-common-perl (>= 4.1-1), libpve-storage-perl (>= 6.3-8), libterm-readline-gnu-perl, libuuid-perl, libxml-libxml-perl, perl (>= 5.10.0-19), pve-cluster, pve-edk2-firmware (>= 3.20210831-1), pve-firewall, pve-ha-manager (>= 3.0-9), pve-qemu-kvm (>= 3.0.1-62), socat, swtpm, swtpm-tools, perl:any, libc6 (>= 2.10), libglib2.0-0 (>= 2.28.0), libjson-c5 (>= 0.15)
+Recommends: proxmox-backup-file-restore (>= 2.1.9-2)
+Breaks: pve-ha-manager (<= 3.0-4), pve-manager (<= 6.0-13)
+Section: admin
+Priority: optional
+Homepage: https://www.proxmox.com
+Description: Qemu Server Tools
+ This package contains the Qemu Server tools used by Proxmox VE
+Filename: pool/bullseye/main/q/qemu-server/qemu-server_7.2-4_amd64.deb
+MD5sum: bc62d2d55e3bb062fc879df57376bcf3
+SHA1: daf3570a7118c68954b73831ec32bff60c261f9c
+SHA256: 4882322c7f62893672587704dbff2717fb3788a6a1958221704745db54181ca4
+SHA512: 1eae0e8abdc3c92bfa009c254ee28fe9ebc9d7f0fd0a5dfc54b0026827fe8c3f1ed280d9237f47425e2f3fa1b585d18011028ba641c52dc4c10bc4fc704af633
+Size: 261096
+
+Package: qemu-server
+Version: 7.2-10
+Architecture: amd64
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 925
+Depends: dbus, genisoimage, libio-multiplex-perl, libjson-perl, libjson-xs-perl, libnet-ssleay-perl, libpve-access-control (>= 7.2-5), libpve-apiclient-perl, libpve-cluster-perl, libpve-common-perl (>= 7.2-5), libpve-guest-common-perl (>= 4.2-2), libpve-storage-perl (>= 7.2-10), libterm-readline-gnu-perl, libuuid-perl, libxml-libxml-perl, perl (>= 5.10.0-19), proxmox-websocket-tunnel, pve-cluster, pve-edk2-firmware (>= 3.20210831-1), pve-firewall, pve-ha-manager (>= 3.0-9), pve-qemu-kvm (>= 3.0.1-62), socat, swtpm, swtpm-tools, perl:any, libc6 (>= 2.10), libglib2.0-0 (>= 2.12.0), libjson-c5 (>= 0.15)
+Recommends: proxmox-backup-file-restore (>= 2.1.9-2)
+Breaks: pve-ha-manager (<= 3.0-4), pve-manager (<= 6.0-13)
+Section: admin
+Priority: optional
+Homepage: https://www.proxmox.com
+Description: Qemu Server Tools
+ This package contains the Qemu Server tools used by Proxmox VE
+Filename: pool/bullseye/main/q/qemu-server/qemu-server_7.2-10_amd64.deb
+MD5sum: 725201e04c8a9936750aa66a512377ca
+SHA1: 36634dda4fc8dd82a76866f2254e9dab42aefc83
+SHA256: 68b2ee150a054a16117982eab655270f82d45f85a098fab0a0059a77f2b9e19c
+SHA512: ad8c5d62512cd8555fa9415d7b31c869031f2b5e81b9c49689b022105aefcffb2ba1742a4c4b0e7eeb18df034cb5a95c33ce5375ce1937a57dbcc382b52dba54
+Size: 274292
+
+Package: qemu-server
+Version: 7.2-12
+Architecture: amd64
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 925
+Depends: dbus, genisoimage, libio-multiplex-perl, libjson-perl, libjson-xs-perl, libnet-ssleay-perl, libpve-access-control (>= 7.2-5), libpve-apiclient-perl, libpve-cluster-perl, libpve-common-perl (>= 7.2-5), libpve-guest-common-perl (>= 4.2-3), libpve-storage-perl (>= 7.2-10), libterm-readline-gnu-perl, libuuid-perl, libxml-libxml-perl, perl (>= 5.10.0-19), proxmox-websocket-tunnel, pve-cluster, pve-edk2-firmware (>= 3.20210831-1), pve-firewall, pve-ha-manager (>= 3.0-9), pve-qemu-kvm (>= 3.0.1-62), socat, swtpm, swtpm-tools, perl:any, libc6 (>= 2.10), libglib2.0-0 (>= 2.12.0), libjson-c5 (>= 0.15)
+Recommends: proxmox-backup-file-restore (>= 2.1.9-2)
+Breaks: pve-ha-manager (<= 3.0-4), pve-manager (<= 6.0-13)
+Section: admin
+Priority: optional
+Homepage: https://www.proxmox.com
+Description: Qemu Server Tools
+ This package contains the Qemu Server tools used by Proxmox VE
+Filename: pool/bullseye/main/q/qemu-server/qemu-server_7.2-12_amd64.deb
+MD5sum: 966996437eaf65c5107a2d40fbf0d904
+SHA1: 3b7d064c86e8d5e3b4eacdefcd5509019dc48817
+SHA256: deead513688de1a7bfd9657d9baca8307e87435be76addbed82b1f7538edba5a
+SHA512: 0e0686ffe76d0b83f4904223ef209a0b29a324b2402e57789a1f7d9ad0fc5fb47905f8e8adb849158ce7c6cef346d05a4373e8ba51fc9967d98dfb26b39ee913
+Size: 274428
+
+Package: qemu-server
+Version: 7.3-1
+Architecture: amd64
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 926
+Depends: dbus, genisoimage, libio-multiplex-perl, libjson-perl, libjson-xs-perl, libnet-ssleay-perl, libpve-access-control (>= 7.2-5), libpve-apiclient-perl, libpve-cluster-perl, libpve-common-perl (>= 7.2-5), libpve-guest-common-perl (>= 4.2-3), libpve-storage-perl (>= 7.2-10), libterm-readline-gnu-perl, libuuid-perl, libxml-libxml-perl, perl (>= 5.10.0-19), proxmox-websocket-tunnel, pve-cluster, pve-edk2-firmware (>= 3.20210831-1), pve-firewall, pve-ha-manager (>= 3.0-9), pve-qemu-kvm (>= 3.0.1-62), socat, swtpm, swtpm-tools, perl:any, libc6 (>= 2.10), libglib2.0-0 (>= 2.12.0), libjson-c5 (>= 0.15)
+Recommends: proxmox-backup-file-restore (>= 2.1.9-2)
+Breaks: pve-ha-manager (<= 3.0-4), pve-manager (<= 6.0-13)
+Section: admin
+Priority: optional
+Homepage: https://www.proxmox.com
+Description: Qemu Server Tools
+ This package contains the Qemu Server tools used by Proxmox VE
+Filename: pool/bullseye/main/q/qemu-server/qemu-server_7.3-1_amd64.deb
+MD5sum: 6be5e9910b13546568540bd7786ec18a
+SHA1: f6b30624c0621802aa3b5dfcccddf04b0a2f8a84
+SHA256: f2c780bb30bc259b9a1331cfe0b55accbe1dd9453f3c892c7eedb5e9e4bbb325
+SHA512: 117769ed1dbcc78f053a843a8d74f5146cb55a53f752491d7f4d77f75a75f856ecc36148ce0befa673ba6cdda13ec17069f2b0a9670f58c802b313b602373eca
+Size: 274984
+
+Package: qemu-server
+Version: 7.3-2
+Architecture: amd64
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 927
+Depends: dbus, genisoimage, libio-multiplex-perl, libjson-perl, libjson-xs-perl, libnet-ssleay-perl, libpve-access-control (>= 7.2-5), libpve-apiclient-perl, libpve-cluster-perl, libpve-common-perl (>= 7.2-5), libpve-guest-common-perl (>= 4.2-3), libpve-storage-perl (>= 7.2-10), libterm-readline-gnu-perl, libuuid-perl, libxml-libxml-perl, perl (>= 5.10.0-19), proxmox-websocket-tunnel, pve-cluster, pve-edk2-firmware (>= 3.20210831-1), pve-firewall, pve-ha-manager (>= 3.0-9), pve-qemu-kvm (>= 3.0.1-62), socat, swtpm, swtpm-tools, perl:any, libc6 (>= 2.10), libglib2.0-0 (>= 2.12.0), libjson-c5 (>= 0.15)
+Recommends: proxmox-backup-file-restore (>= 2.1.9-2)
+Breaks: pve-ha-manager (<= 3.0-4), pve-manager (<= 6.0-13)
+Section: admin
+Priority: optional
+Homepage: https://www.proxmox.com
+Description: Qemu Server Tools
+ This package contains the Qemu Server tools used by Proxmox VE
+Filename: pool/bullseye/main/q/qemu-server/qemu-server_7.3-2_amd64.deb
+MD5sum: 8f2d2a9d2e66ee2c61666c047f518054
+SHA1: 755d8769626871ec1d4f389d04ef1f52a818592e
+SHA256: 3a6297d307c5d236f78d082fbc62cba5b0e62489b1f9337684e287c578cf583f
+SHA512: 875a0bc649376af71d6d1dd466370e20cefc8816b5a9a86da6562e72b2f6fac36717f3570a9c3b65ec2bb0a4816f23707bb7ee28870da2de6cd9bf7193508343
+Size: 275160
+
+Package: qemu-server
+Version: 7.3-3
+Architecture: amd64
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 927
+Depends: dbus, genisoimage, libio-multiplex-perl, libjson-perl, libjson-xs-perl, libnet-ssleay-perl, libpve-access-control (>= 7.2-5), libpve-apiclient-perl, libpve-cluster-perl, libpve-common-perl (>= 7.2-5), libpve-guest-common-perl (>= 4.2-3), libpve-storage-perl (>= 7.2-10), libterm-readline-gnu-perl, libuuid-perl, libxml-libxml-perl, perl (>= 5.10.0-19), proxmox-websocket-tunnel, pve-cluster, pve-edk2-firmware (>= 3.20210831-1), pve-firewall, pve-ha-manager (>= 3.0-9), pve-qemu-kvm (>= 3.0.1-62), socat, swtpm, swtpm-tools, perl:any, libc6 (>= 2.10), libglib2.0-0 (>= 2.12.0), libjson-c5 (>= 0.15)
+Recommends: proxmox-backup-file-restore (>= 2.1.9-2)
+Breaks: pve-ha-manager (<= 3.0-4), pve-manager (<= 6.0-13)
+Section: admin
+Priority: optional
+Homepage: https://www.proxmox.com
+Description: Qemu Server Tools
+ This package contains the Qemu Server tools used by Proxmox VE
+Filename: pool/bullseye/main/q/qemu-server/qemu-server_7.3-3_amd64.deb
+MD5sum: 9e38fd0d6f527f4ec7392b1020733606
+SHA1: 450639ab56e319c24c0b0c2cb1ab435ac8c632ed
+SHA256: d9210cfc58ef08f44d157fe3e4ccb5b7731f2310c25c6eaa3f9b85cca66c310e
+SHA512: a1101cff023f2f2aff6b250a15993dc4836b034295b9ed3e606b22c0ebd672a070a4686317b5402cab89cc40fa0500bb9d0d1ce65911043c050782d667a10373
+Size: 275552
+
+Package: qemu-server
+Version: 7.3-4
+Architecture: amd64
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 930
+Depends: dbus, genisoimage, libio-multiplex-perl, libjson-perl, libjson-xs-perl, libnet-ssleay-perl, libpve-access-control (>= 7.2-5), libpve-apiclient-perl, libpve-cluster-perl, libpve-common-perl (>= 7.2-5), libpve-guest-common-perl (>= 4.2-3), libpve-storage-perl (>= 7.2-10), libterm-readline-gnu-perl, libuuid-perl, libxml-libxml-perl, perl (>= 5.10.0-19), proxmox-websocket-tunnel, pve-cluster, pve-edk2-firmware (>= 3.20210831-1), pve-firewall, pve-ha-manager (>= 3.0-9), pve-qemu-kvm (>= 3.0.1-62), socat, swtpm, swtpm-tools, perl:any, libc6 (>= 2.10), libglib2.0-0 (>= 2.12.0), libjson-c5 (>= 0.15)
+Recommends: proxmox-backup-file-restore (>= 2.1.9-2)
+Breaks: pve-ha-manager (<= 3.0-4), pve-manager (<= 6.0-13)
+Section: admin
+Priority: optional
+Homepage: https://www.proxmox.com
+Description: Qemu Server Tools
+ This package contains the Qemu Server tools used by Proxmox VE
+Filename: pool/bullseye/main/q/qemu-server/qemu-server_7.3-4_amd64.deb
+MD5sum: b2c0e3670b35ffdaed03e26fb34dba1b
+SHA1: 304806375996888e3ca67df56666c0db67fa1265
+SHA256: c9d48b44df58f633094552e25814e640a55f7efde30e44fc90499ba88eee5cb3
+SHA512: 8c66701742ea731328bee8fd304ed2b1dbc809518d30296a36a5e7915e40607599aa1e51b195044650cf3e430e3d2d41337862d3192cb788f2f227e0a9fc1a83
+Size: 276668
+
+Package: spiceterm-dbgsym
+Source: spiceterm
+Version: 3.2-2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 83
+Depends: spiceterm (= 3.2-2)
+Section: debug
+Priority: optional
+Description: debug symbols for spiceterm
+Build-Ids: e5e5b0c69ebfa98deeba5df0f63bb4fdf4ac9741
+Filename: pool/bullseye/main/s/spiceterm/spiceterm-dbgsym_3.2-2_amd64.deb
+MD5sum: 980449c0c6c905d20da04b05eec94a30
+SHA1: 33cc1aeaf00d705002c354abd095b3c24ad7789d
+SHA256: ec96a3327d6f5d2bb3f9985954d8acd583f6d22a531c489037c2d54e7282f166
+SHA512: 8ae87846434daf9d7dd7701e83ecb81dc2be246d00bbdfd7caa70c95ebea2d14bf28fdbe87922878ba281fb149ec16d0dfd7ed60ea2014e13f45e5749e6846b3
+Size: 64284
+
+Package: spiceterm
+Version: 3.2-2
+Architecture: amd64
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 337
+Depends: libspice-server1 (>= 0.12.2), pve-qemu-kvm, libc6 (>= 2.14), libglib2.0-0 (>= 2.31.8)
+Section: admin
+Priority: optional
+Description: SPICE Terminal Emulator
+ With spiceterm you can start commands and export its standard input and
+ output to any SPICE client (simulating a xterm Terminal).
+Filename: pool/bullseye/main/s/spiceterm/spiceterm_3.2-2_amd64.deb
+MD5sum: f85422c647fe2218e542d40b1d0731e7
+SHA1: 55da52af99f25b0d35f8a034eaf1ab75e4383aad
+SHA256: 2013f03f199effa4c40b25778f4db962f285e920c0a09f050a05786d2562e5c9
+SHA512: 3ec3aad14bba4a2fc9ff69e13a3d146591e4944f59c4f680c0483c8f0101970ab5953bbe9d197c3ecac23b5e93997849848b32fcb78fdb2a60a5555e2e428a17
+Size: 53436
+
+Package: vncterm
+Version: 1.7-1
+Architecture: amd64
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 2466
+Depends: libc6 (>= 2.15), libgnutls30 (>= 3.7.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), zlib1g (>= 1:1.2.1)
+Section: x11
+Priority: optional
+Description: VNC Terminal Emulator
+ With vncterm you can start commands and export its standard input and
+ output to any VNC client (simulating a xterm Terminal).
+Filename: pool/bullseye/main/v/vncterm/vncterm_1.7-1_amd64.deb
+MD5sum: 02607f736e90e35abb0a7f39c0a94960
+SHA1: 1c3b298c15be2fbcad714601e9e2b49ad832a706
+SHA256: dc504a01d87f6d3bb08230eab47ce5105e5d1086d48f973e81b125231e72d339
+SHA512: 23bbc33ce9048c0f6d510a507979f9962ac3670ba947dd8ad2ba88bbfddbf64e4db739ebb961fb11570769f7e86600c078c9f4a4cc1b916105225b71d89af850
+Size: 626132
+
