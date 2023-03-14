@@ -1,0 +1,671 @@
+Package: proxmox-archive-keyring
+Version: 2.1
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 21
+Section: misc
+Priority: optional
+Description: Proxmox APT archive keyring
+ This package contains the release keyrings used to sign APT repositories for
+ various Proxmox products.
+Filename: pool/bullseye/main/p/proxmox-archive-keyring/proxmox-archive-keyring_2.1_all.deb
+MD5sum: 5583d31cc20347091fc4e9a140617831
+SHA1: d68b0142bef8c372af93e8a1b3a8e78c66db198c
+SHA256: 8e293fddcd4f0c3f4bbcc1edea56643f504e9534ea999e9fbcbb46f5a1d3ca03
+SHA512: fcd30abfbd26ab69decfeabad185d2b0c84b2410173e530d537b838c9863f949e9ae5a10539571dba4c409608d53c2657b77180d6cc10d5b8da7a74af7e69e65
+Size: 4228
+
+Package: proxmox-archive-keyring
+Version: 3.0
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 23
+Section: misc
+Priority: optional
+Description: Proxmox APT archive keyring
+ This package contains the release keyrings used to sign APT repositories for
+ various Proxmox products.
+Filename: pool/bullseye/main/p/proxmox-archive-keyring/proxmox-archive-keyring_3.0_all.deb
+MD5sum: 326aea218ea4f7c849fe17b459b15298
+SHA1: 379f7915081fc661d477d9494b38368728c09a64
+SHA256: 5369b3897ad304dc840499bc75bc68b768f6e19f9b293596f19cc9feecaf916f
+SHA512: 07efb88b81ee4776c820f803444790f632c882508206a0bbea72c1f226d7ee26c111608fcc597efc32af20438e3029d1ab0cf8c978b3778ab340f695d930901a
+Size: 5456
+
+Package: proxmox-ve
+Version: 7.2-1
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 28
+Depends: apt, openssh-client, openssh-server, proxmox-archive-keyring, pve-kernel-helper, pve-manager, pve-qemu-kvm, qemu-server, spiceterm, vncterm
+Conflicts: proxmox-ve-3.10.0, proxmox-virtual-environment, pve-kernel
+Replaces: proxmox-ve-3.10.0, proxmox-virtual-environment, pve-kernel
+Provides: proxmox-virtual-environment
+Section: admin
+Priority: optional
+Homepage: https://www.proxmox.com
+Description: Proxmox Virtual Environment
+ The Proxmox Virtual Environment is an easy to use Open Source
+ virtualization platform for running Virtual Appliances and Virtual
+ Machines. This is a meta package which will install everything
+ needed.
+Filename: pool/bullseye/main/p/proxmox-ve/proxmox-ve_7.2-1_all.deb
+MD5sum: 63d45af6062e3a2aeafbf4bd99beb662
+SHA1: 12d5832f126a72acd5123ebb8b4d91814c04787d
+SHA256: 1de38814043c2cd8d6096dba617ce377e8926dede67be3efd1a8821a41e9912d
+SHA512: d2d64fc03c6f024f22c5618afda8868a5e1ac54c9cf000e771dd8560322ed48465992adea71c2f460fc754fc053ded7d8ac31000139a1fe4a1f851e8f69d6db2
+Size: 6112
+
+Package: proxmox-ve
+Version: 7.3-1
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 28
+Depends: apt, openssh-client, openssh-server, proxmox-archive-keyring, pve-kernel-helper, pve-manager, pve-qemu-kvm, qemu-server, spiceterm, vncterm
+Conflicts: proxmox-ve-3.10.0, proxmox-virtual-environment, pve-kernel
+Replaces: proxmox-ve-3.10.0, proxmox-virtual-environment, pve-kernel
+Provides: proxmox-virtual-environment
+Section: admin
+Priority: optional
+Homepage: https://www.proxmox.com
+Description: Proxmox Virtual Environment
+ The Proxmox Virtual Environment is an easy to use Open Source
+ virtualization platform for running Virtual Appliances and Virtual
+ Machines. This is a meta package which will install everything
+ needed.
+Filename: pool/bullseye/main/p/proxmox-ve/proxmox-ve_7.3-1_all.deb
+MD5sum: 36886170b133f2ef083803611f565668
+SHA1: 5a614014df2ee7ad0ffa10348aefe63c32576c56
+SHA256: aa78cee11fb242b4c4bd97687d03176d815237b2bfc7be5662db24fbba8b1366
+SHA512: cf2257e114ad0378cd28be3d732d6dc368b1363ab977530b1f51cf7032f2212022f33831b4179e29f4c419bbcf6127620b86a051e0be8648bbb8e68fd79554fd
+Size: 6124
+
+Package: pve-headers-5.19
+Source: pve-kernel-5.19
+Version: 7.2-12
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 10
+Depends: pve-headers-5.19.7-1-pve
+Provides: linux-headers-amd64, linux-headers-generic
+Section: admin
+Priority: optional
+Description: Latest Proxmox VE Kernel Headers
+ This is a metapackage which will install the kernel headers
+ for the latest available proxmox kernel from the 5.19
+ series.
+Filename: pool/bullseye/main/p/pve-kernel-5.19/pve-headers-5.19_7.2-12_all.deb
+MD5sum: 3c32113359a2905a5c18e508dc908002
+SHA1: bba949b8afd64914229dfbdb20a6d6f1f58fcb46
+SHA256: 1676a9904d1916db6b6258b8bdd70055c3c7a0da128fd5a8f2d15452448cb5d3
+SHA512: d960f3f5046b13722ab35b7cf53d110a231fa7895c6a8b15588216732a974ac32b222b69a780440150d5be9ebe89fedd224cfd45dd93938309408936daad16e5
+Size: 4640
+
+Package: pve-headers-5.19
+Source: pve-kernel-5.19
+Version: 7.2-14
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 10
+Depends: pve-headers-5.19.17-1-pve
+Provides: linux-headers-amd64, linux-headers-generic
+Section: admin
+Priority: optional
+Description: Latest Proxmox VE Kernel Headers
+ This is a metapackage which will install the kernel headers
+ for the latest available proxmox kernel from the 5.19
+ series.
+Filename: pool/bullseye/main/p/pve-kernel-5.19/pve-headers-5.19_7.2-14_all.deb
+MD5sum: f59dc5f9f329d48b7ada0178e1fbb2fd
+SHA1: 626c316873d0b2048a193b5b8b8c1a3ae21eb44a
+SHA256: 52b4b17899c62813845f103684fb58e84ffd929fc169596d94d6de2a87dba17c
+SHA512: 1e2407394b423c262111116ba82189e21f2f732da76b32216d3b6821475e00fa1fb6fa94ef7a884c2ae4f63815e0dcff2c997dcbc9782358fb382a59d4bdf18b
+Size: 4676
+
+Package: pve-headers-6.1
+Source: pve-kernel-6.1
+Version: 7.3-1
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 10
+Depends: pve-headers-6.1.0-1-pve
+Provides: linux-headers-amd64, linux-headers-generic
+Section: admin
+Priority: optional
+Description: Latest Proxmox VE Kernel Headers
+ This is a metapackage which will install the kernel headers
+ for the latest available proxmox kernel from the 6.1
+ series.
+Filename: pool/bullseye/main/p/pve-kernel-6.1/pve-headers-6.1_7.3-1_all.deb
+MD5sum: 92ee11240150b12ed3a621961363a2d3
+SHA1: ba18b87739774ff6c441491753bb52f0aefaf0a6
+SHA256: bf7f1504ea612d7f845b9e2378960bbf8b710ec519c89c4782d482380e6e54ca
+SHA512: a9b640358a2dec4e3e17bca38a8634635014f25c59b074855c21764847cf89c771ddb871168d030d1abe04d32a02c7ce4dbd3f3f88a04adce94f9abfc66990c2
+Size: 4688
+
+Package: pve-headers-6.1
+Source: pve-kernel-6.1
+Version: 7.3-2
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 10
+Depends: pve-headers-6.1.2-1-pve
+Provides: linux-headers-amd64, linux-headers-generic
+Section: admin
+Priority: optional
+Description: Latest Proxmox VE Kernel Headers
+ This is a metapackage which will install the kernel headers
+ for the latest available proxmox kernel from the 6.1
+ series.
+Filename: pool/bullseye/main/p/pve-kernel-6.1/pve-headers-6.1_7.3-2_all.deb
+MD5sum: 9eee3c37e3e15b2a3180ddcab3a8c239
+SHA1: b5b5b61af7311d065a3f0f3bcfa53b342dcda764
+SHA256: fc9d0c961a4e9ffa081789f6f55984a76686b003c0fa1356d492ab8148b5aea7
+SHA512: 72b217bb1c21e008ef66731b98af777b0b085e8e66dbe210e9ac6a503ba4a24434cef8325a14788531942597512d7db61391969960768ae53073e7557253e20e
+Size: 4708
+
+Package: pve-headers-6.1
+Source: pve-kernel-6.1
+Version: 7.3-3
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 11
+Depends: pve-headers-6.1.6-1-pve
+Provides: linux-headers-amd64, linux-headers-generic
+Section: admin
+Priority: optional
+Description: Latest Proxmox VE Kernel Headers
+ This is a metapackage which will install the kernel headers
+ for the latest available proxmox kernel from the 6.1
+ series.
+Filename: pool/bullseye/main/p/pve-kernel-6.1/pve-headers-6.1_7.3-3_all.deb
+MD5sum: d2a1fa79f6573af51827c2f9f264dca1
+SHA1: 9585a553ee4490e84831a5f3f0c755df9bb626b5
+SHA256: 867e8d59ec96c2f7a9c97aeded4d9b456c7d30f49cb7a98df8f9f5c9b3dd140f
+SHA512: 1396b7da8afbbb4eb273318da48760933db3cb66a84fec95ea24f332c362d146b84d9d652386cc3e0302c78a3c5aa2ad3313ecd42c68a5a95c6514a990106c16
+Size: 4736
+
+Package: pve-headers-6.1
+Source: pve-kernel-6.1
+Version: 7.3-4
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 11
+Depends: pve-headers-6.1.10-1-pve
+Provides: linux-headers-amd64, linux-headers-generic
+Section: admin
+Priority: optional
+Description: Latest Proxmox VE Kernel Headers
+ This is a metapackage which will install the kernel headers
+ for the latest available proxmox kernel from the 6.1
+ series.
+Filename: pool/bullseye/main/p/pve-kernel-6.1/pve-headers-6.1_7.3-4_all.deb
+MD5sum: a4af9fe94a7430e2f36fbe771c4dd371
+SHA1: a8e82afc954108952a9cab4a4688d83f8d1844d7
+SHA256: d39a1adb561a89dd4320a4e8a46e5339b6d9bb53c9f3213ae240147fb0a4e9cb
+SHA512: d08b64a7814574a953ac760a1813ad226924078a787538ac5c97260e617996adac9e4120a6b87ee38316d92b2ca64d063b25637a97b9ffff51825fd872436f71
+Size: 4752
+
+Package: pve-headers-6.1
+Source: pve-kernel-6.1
+Version: 7.3-5
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 11
+Depends: pve-headers-6.1.14-1-pve
+Provides: linux-headers-amd64, linux-headers-generic
+Section: admin
+Priority: optional
+Description: Latest Proxmox VE Kernel Headers
+ This is a metapackage which will install the kernel headers
+ for the latest available proxmox kernel from the 6.1
+ series.
+Filename: pool/bullseye/main/p/pve-kernel-6.1/pve-headers-6.1_7.3-5_all.deb
+MD5sum: 7c9bdd9a599a6540db9fe1cfb5e02027
+SHA1: 6257e45a1abd36d549ebc47c3a0597c90ada0605
+SHA256: 22af93f72df2d7fe8c4305b028da92d6e8be53fbb68cbdc75167f5159e4d520c
+SHA512: 222f50d4cfac74e90e7b546f49e610285163d2675eecff71cb2a1084e0ef0c6617bee57ce65a2deaed31ed1fbef4e5d122fcf7e1a0175cda9422480c2c3942e2
+Size: 4764
+
+Package: pve-headers-6.1
+Source: pve-kernel-6.1
+Version: 7.3-6
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 11
+Depends: pve-headers-6.1.15-1-pve
+Provides: linux-headers-amd64, linux-headers-generic
+Section: admin
+Priority: optional
+Description: Latest Proxmox VE Kernel Headers
+ This is a metapackage which will install the kernel headers
+ for the latest available proxmox kernel from the 6.1
+ series.
+Filename: pool/bullseye/main/p/pve-kernel-6.1/pve-headers-6.1_7.3-6_all.deb
+MD5sum: cecb967f82d45ef0fe3682faaa96b359
+SHA1: 208d0fc6768728d0e8623dc3808ece879545785b
+SHA256: e499eb0b3c158a0f426fe5c14f06b82c28e320d6e597942b27626da611f6021d
+SHA512: e745a82123506ad27d97f738f973d942b9c28e34e6b3b6e3f196fbd7f360c247aa303231823a3fddba9c6e483593f91a3b7692778cac48934d944947bd6537fa
+Size: 4792
+
+Package: pve-headers-6.2
+Source: pve-kernel-6.2
+Version: 7.3-7
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 11
+Depends: pve-headers-6.2.2-1-pve
+Provides: linux-headers-amd64, linux-headers-generic
+Section: admin
+Priority: optional
+Description: Latest Proxmox VE Kernel Headers
+ This is a metapackage which will install the kernel headers
+ for the latest available proxmox kernel from the 6.2
+ series.
+Filename: pool/bullseye/main/p/pve-kernel-6.2/pve-headers-6.2_7.3-7_all.deb
+MD5sum: ff61d3928cd7f9a0c932a31623305dd2
+SHA1: 040a04f435c6e380416b3451cb2ba65d7b0918b9
+SHA256: 472df1e0ef35e40900843d6926e38bf41f726c5b377348e7bb9953acbdd9a65f
+SHA512: 4f22c8149b9006e5e781dbb42c2300b1ad8e849d27c10c7ffe44cde3a075e3ef31799d924ac5eae2dcda0646137818fa86073972d601a6e6a99ae499c7042dc8
+Size: 4804
+
+Package: pve-headers
+Source: proxmox-ve
+Version: 7.2-1
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 10
+Depends: pve-headers-5.15
+Section: admin
+Priority: optional
+Homepage: https://www.proxmox.com
+Description: Default Proxmox VE Kernel Headers
+ This is a metapackage which will install the kernel headers for the
+ current default kernel.
+Filename: pool/bullseye/main/p/proxmox-ve/pve-headers_7.2-1_all.deb
+MD5sum: e0f0da529ed2d78165d26c808b3e5f87
+SHA1: 527a69130f0035062d2ec18ec7cf913cf9340487
+SHA256: 82622a62ed7f2dcba368803f023bab5fe96a290dabf1517bab6b6bc75af90d30
+SHA512: eebd141a64da75dde7fa7fd8f07d44021af34d57a8d869c786338feb9b335f98d8abdecbf2a1ad25179b1a93e083baa8c2ed8817fe18e12b5ca5489012fef1b5
+Size: 3736
+
+Package: pve-headers
+Source: proxmox-ve
+Version: 7.3-1
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 10
+Depends: pve-headers-5.15
+Section: admin
+Priority: optional
+Homepage: https://www.proxmox.com
+Description: Default Proxmox VE Kernel Headers
+ This is a metapackage which will install the kernel headers for the
+ current default kernel.
+Filename: pool/bullseye/main/p/proxmox-ve/pve-headers_7.3-1_all.deb
+MD5sum: 30dffe9fda29a5287bbb73dd4fd4fc11
+SHA1: 94118dd8462316ef622c705d4295fad5c677604e
+SHA256: 0bb1112e697fccf15dc7307ac83cab0b26b80eaa4b0c5afa41ec5b2baa7b95df
+SHA512: 671eb7c25dede8b63ff4379d227aaa187e3162422ae401753d35f5bf7bae4986569a2e92202defa681aa90e76192e8d2bddbd2ab659bc0c6ec2e3c3c7dcfeeb4
+Size: 3744
+
+Package: pve-kernel-5.19
+Version: 7.2-12
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 12
+Depends: pve-firmware, pve-kernel-5.19.7-1-pve
+Provides: linux-image-amd64, linux-image-generic, wireguard-modules (= 1.0.0)
+Section: admin
+Priority: optional
+Description: Latest Proxmox VE Kernel Image
+ This is a metapackage which will install the latest available
+ proxmox kernel from the 5.19 series.
+Filename: pool/bullseye/main/p/pve-kernel-5.19/pve-kernel-5.19_7.2-12_all.deb
+MD5sum: 2fb40dba4f89ed706c9eab6c35ab2bb6
+SHA1: f803d6b0d82c01faf7e6859a9645ced55693acd9
+SHA256: 865bf75cba3475062a07dc23b543877cc9cdb3d66d3052c8b1b4ff6338feb4cf
+SHA512: 5c9c3f5b7e87b1e37b8874e47375ddc8b52423cd60e5321224d8e35544fd263f4856fe6a23de7233417b5b0c0ac10f6ddd6f1ecd2c6d28d49112186bfdd3767d
+Size: 4992
+
+Package: pve-kernel-5.19
+Version: 7.2-14
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 12
+Depends: pve-firmware, pve-kernel-5.19.17-1-pve
+Provides: linux-image-amd64, linux-image-generic, wireguard-modules (= 1.0.0)
+Section: admin
+Priority: optional
+Description: Latest Proxmox VE Kernel Image
+ This is a metapackage which will install the latest available
+ proxmox kernel from the 5.19 series.
+Filename: pool/bullseye/main/p/pve-kernel-5.19/pve-kernel-5.19_7.2-14_all.deb
+MD5sum: 11d231c75d16ea42b7f2321e3d3a23db
+SHA1: af800a12f5d54886c80727bdca9fa99b7b8107f0
+SHA256: 867e381b0153ab3d4aa318a26f891c3095a4f7483afa5998471852f0ac3c25f6
+SHA512: 0950ed5c9752e5c8dcc4c1d17fe40a4bae8fff0214ac4128964373ba828d529c77c1eafa20cb84e974343b0463d0d51323f2494329c361812f214b1c66a8f529
+Size: 5020
+
+Package: pve-kernel-6.1
+Version: 7.3-1
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 12
+Depends: pve-firmware, pve-kernel-6.1.0-1-pve
+Provides: linux-image-amd64, linux-image-generic, wireguard-modules (= 1.0.0)
+Section: admin
+Priority: optional
+Description: Latest Proxmox VE Kernel Image
+ This is a metapackage which will install the latest available
+ proxmox kernel from the 6.1 series.
+Filename: pool/bullseye/main/p/pve-kernel-6.1/pve-kernel-6.1_7.3-1_all.deb
+MD5sum: c8de1b8cb725dffb54a36308e8951fed
+SHA1: 695b4f23f3ea932c870e0321f53a3a7020ccfb07
+SHA256: 9a4c37b802e20537ad38e7b86179b1c45e84ff360f2813d2ff09b5c4a1a138ce
+SHA512: c6bd36c8d339240c3ca15c05b7ec896db11b9c04fd6b2dbe5ab144b6dad34d3f80a2f84f5ae4f20e5aa5be3423490fc6aadda98d082ea4e882cbd6f992ba7865
+Size: 5040
+
+Package: pve-kernel-6.1
+Version: 7.3-2
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 12
+Depends: pve-firmware, pve-kernel-6.1.2-1-pve
+Provides: linux-image-amd64, linux-image-generic, wireguard-modules (= 1.0.0)
+Section: admin
+Priority: optional
+Description: Latest Proxmox VE Kernel Image
+ This is a metapackage which will install the latest available
+ proxmox kernel from the 6.1 series.
+Filename: pool/bullseye/main/p/pve-kernel-6.1/pve-kernel-6.1_7.3-2_all.deb
+MD5sum: bf06805b5fba5b4e95ceb06f10b2d3ae
+SHA1: 78d82603d949fcf15e9cfcb7f7ddd16a73c653e1
+SHA256: dc3b8cf01324c51f457efdbc0ea07241391359e954ab1d9c54b641c2181b2bc4
+SHA512: 3e9336b4c27e12a2b4f39bb75b67c2f7b4c4cc7e7916ff530535e37d9b64fccfc625b2908abc8bc4720a3adac0a5dad026c9c3563954b32b759cfdd2ec225c49
+Size: 5052
+
+Package: pve-kernel-6.1
+Version: 7.3-3
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 13
+Depends: pve-firmware, pve-kernel-6.1.6-1-pve
+Provides: linux-image-amd64, linux-image-generic, wireguard-modules (= 1.0.0)
+Section: admin
+Priority: optional
+Description: Latest Proxmox VE Kernel Image
+ This is a metapackage which will install the latest available
+ proxmox kernel from the 6.1 series.
+Filename: pool/bullseye/main/p/pve-kernel-6.1/pve-kernel-6.1_7.3-3_all.deb
+MD5sum: 3409f85c9ef5e355139355ecfdcccc2f
+SHA1: 8ea7507058990c4a063e504e14f7334a39f9624b
+SHA256: 127fb02d1d68a46486ae1394504c4accd15d2e7537dfb47e0bb51a7d35ce17f2
+SHA512: 46ad5c87ea4f063ac3c577a5a48ab21412203748345d942cd0e35a40c43525371cc5c85d56af32807134fa41983d1bc9a0924229f129c10b54ad5b1525906c30
+Size: 5080
+
+Package: pve-kernel-6.1
+Version: 7.3-4
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 13
+Depends: pve-firmware, pve-kernel-6.1.10-1-pve
+Provides: linux-image-amd64, linux-image-generic, wireguard-modules (= 1.0.0)
+Section: admin
+Priority: optional
+Description: Latest Proxmox VE Kernel Image
+ This is a metapackage which will install the latest available
+ proxmox kernel from the 6.1 series.
+Filename: pool/bullseye/main/p/pve-kernel-6.1/pve-kernel-6.1_7.3-4_all.deb
+MD5sum: d3865ed3ca4ce965648ba91a2968a648
+SHA1: 01bd0fb9d80990bfcfc57cdf276322662b584514
+SHA256: 6b01c4a3997c0a9f85b0719bf01d16a6df0d8936061b2593ce4270ee78be5d3e
+SHA512: e5c8a225559c01384a1feabae9791bafaa0cfe7b4e238392e12b0c095e402e82a709a1c3769f6d78db829df926cfbc022433c6e1580e66c7ecee87f2f0669429
+Size: 5100
+
+Package: pve-kernel-6.1
+Version: 7.3-5
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 13
+Depends: pve-firmware, pve-kernel-6.1.14-1-pve
+Provides: linux-image-amd64, linux-image-generic, wireguard-modules (= 1.0.0)
+Section: admin
+Priority: optional
+Description: Latest Proxmox VE Kernel Image
+ This is a metapackage which will install the latest available
+ proxmox kernel from the 6.1 series.
+Filename: pool/bullseye/main/p/pve-kernel-6.1/pve-kernel-6.1_7.3-5_all.deb
+MD5sum: d448762874ebfb76b5ddc889b2d2174f
+SHA1: f1d704ad93e63c87a5dbd70b810372e0fcb796bd
+SHA256: b47ecf7b1faf9063325bb530ed45f74c0371d8a1f02b747e1e83fa4321a46c92
+SHA512: ea416714c95a365bee6ba8984f591354bbca9fecc8473931aef826d6169510319dbeb5466caa8134fb6ad3ec71a5cc7d21c9418f24ccfe60ee671db05854bcca
+Size: 5116
+
+Package: pve-kernel-6.1
+Version: 7.3-6
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 13
+Depends: pve-firmware, pve-kernel-6.1.15-1-pve
+Provides: linux-image-amd64, linux-image-generic, wireguard-modules (= 1.0.0)
+Section: admin
+Priority: optional
+Description: Latest Proxmox VE Kernel Image
+ This is a metapackage which will install the latest available
+ proxmox kernel from the 6.1 series.
+Filename: pool/bullseye/main/p/pve-kernel-6.1/pve-kernel-6.1_7.3-6_all.deb
+MD5sum: fb946d4edf078fa61434a6c1fc55cbd9
+SHA1: c588c1d750ceab5d5e1ef78a0b548aa5bb134683
+SHA256: 9ca44ba5b3eb1b38082a1caffeea5d25cae635e5f061a3d8503c6136f2f6893c
+SHA512: 99bb497a0ba13877a7903f1706774a4f3ac64ae8359aa679126be9098d347ca1f5eefd8b0b7fb0ce438a0f63e0d1cfbf72a4c860ba4a443391e8e131faa4bc8b
+Size: 5140
+
+Package: pve-kernel-6.2
+Version: 7.3-7
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 13
+Depends: pve-firmware, pve-kernel-6.2.2-1-pve
+Provides: linux-image-amd64, linux-image-generic, wireguard-modules (= 1.0.0)
+Section: admin
+Priority: optional
+Description: Latest Proxmox VE Kernel Image
+ This is a metapackage which will install the latest available
+ proxmox kernel from the 6.2 series.
+Filename: pool/bullseye/main/p/pve-kernel-6.2/pve-kernel-6.2_7.3-7_all.deb
+MD5sum: 5d0eb8198707c1a4c554b1a32c77e7e8
+SHA1: dc5acc0a17d30eac00e22b9d51075b9f950b6663
+SHA256: 75d481cfd7ba0263398a5e68c44bb02135504f6c02fcf4f2a2ad2ba2a0ecc3b6
+SHA512: 1259fb0ef137442fb285afea08d30e7002354d9bdc995e345139a4953e627bf2ca0724b63ecc47e300fa1524f00a4acc8d2d972856290547955e09386241cfd3
+Size: 5152
+
+Package: pve-kernel-helper
+Source: pve-kernel-5.19
+Version: 7.2-12
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 81
+Depends: dosfstools, gdisk, systemd, udev
+Breaks: proxmox-ve (<< 6.0-2~)
+Replaces: proxmox-ve (<< 6.0-2~)
+Section: admin
+Priority: optional
+Description: Function for various kernel maintenance tasks.
+ This package includes kernel-hooks for marking certain kernels as
+ NeverAutoRemove and helpers for systemd-boot
+Filename: pool/bullseye/main/p/pve-kernel-5.19/pve-kernel-helper_7.2-12_all.deb
+MD5sum: 740c38ce3f6327e703eba356bb1dfb20
+SHA1: 3ed73cbe2fa51fc560f424dd980a9451619a8526
+SHA256: b4ebe253af5f45bd00efa62288eb487856bdc24766ec3b060bb2251c09cfb299
+SHA512: 70367a6a693bfa6e4cef1e164fb7cdf536188c257685f176b665b3cf05e2021fa24af1581c39e217ca0ff96b9337d31b25398f9ca74d75e3144d5fb72f3c6bd4
+Size: 15132
+
+Package: pve-kernel-helper
+Source: pve-kernel-5.19
+Version: 7.2-14
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 81
+Depends: dosfstools, gdisk, systemd, udev
+Breaks: proxmox-ve (<< 6.0-2~)
+Replaces: proxmox-ve (<< 6.0-2~)
+Section: admin
+Priority: optional
+Description: Function for various kernel maintenance tasks.
+ This package includes kernel-hooks for marking certain kernels as
+ NeverAutoRemove and helpers for systemd-boot
+Filename: pool/bullseye/main/p/pve-kernel-5.19/pve-kernel-helper_7.2-14_all.deb
+MD5sum: 00188cec5c2e53f42ef9fdcb409e2976
+SHA1: 7e633d0e201435525a66a2ae3bd56171c94b674d
+SHA256: 3aa697a80acf27f45eba446c99d4d54fab84729fe5f0d26ade613d90ba69dd94
+SHA512: 366ff002711dba9c5ad48d7598b9862529daa9334d6d236ddea852dda140d2d55ed2a43e367a37aea6ff574bef7769dfb606c0895caa5d39e15bbcfb0b1d6110
+Size: 15164
+
+Package: pve-kernel-helper
+Source: pve-kernel-6.1
+Version: 7.3-1
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 81
+Depends: dosfstools, gdisk, systemd, udev
+Breaks: proxmox-ve (<< 6.0-2~)
+Replaces: proxmox-ve (<< 6.0-2~)
+Section: admin
+Priority: optional
+Description: Function for various kernel maintenance tasks.
+ This package includes kernel-hooks for marking certain kernels as
+ NeverAutoRemove and helpers for systemd-boot
+Filename: pool/bullseye/main/p/pve-kernel-6.1/pve-kernel-helper_7.3-1_all.deb
+MD5sum: 359161e6e25b5191dda258090467130d
+SHA1: f330028b34b2f1931d260e17eb1f95aa3cf222d2
+SHA256: 90748fbab9551be7933919eff766db8ebee503ef071dc6a709fdb9cf619b533d
+SHA512: f3d1b905b623d22aed6d835052f4866ea6a359f4cc8d4726d11175f6e1e86b7498316172a077c5f7089037039aa2e9a96c9a1899eeabcc059dc4909bd4bde262
+Size: 15188
+
+Package: pve-kernel-helper
+Source: pve-kernel-6.1
+Version: 7.3-2
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 81
+Depends: dosfstools, gdisk, systemd, udev
+Breaks: proxmox-ve (<< 6.0-2~)
+Replaces: proxmox-ve (<< 6.0-2~)
+Section: admin
+Priority: optional
+Description: Function for various kernel maintenance tasks.
+ This package includes kernel-hooks for marking certain kernels as
+ NeverAutoRemove and helpers for systemd-boot
+Filename: pool/bullseye/main/p/pve-kernel-6.1/pve-kernel-helper_7.3-2_all.deb
+MD5sum: b5b3518a4758ecc91a201f1a60a5200e
+SHA1: 868f351eb61f45929b01c56e553069b1b8d44553
+SHA256: 40121931f4475e895aa208ea51536f97706d38463df9b11d9545d67c43bfc920
+SHA512: fa4a432a6a7986dcb147c3e0525bc9c37ccba668ece9bda6e6de41fab396f92f469bca96fabbe9a815453a36c4e52d3b424e8f3538e7cd4e09add70c2cf3d44a
+Size: 15204
+
+Package: pve-kernel-helper
+Source: pve-kernel-6.1
+Version: 7.3-3
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 82
+Depends: dosfstools, gdisk, systemd, udev
+Breaks: proxmox-ve (<< 6.0-2~)
+Replaces: proxmox-ve (<< 6.0-2~)
+Section: admin
+Priority: optional
+Description: Function for various kernel maintenance tasks.
+ This package includes kernel-hooks for marking certain kernels as
+ NeverAutoRemove and helpers for systemd-boot
+Filename: pool/bullseye/main/p/pve-kernel-6.1/pve-kernel-helper_7.3-3_all.deb
+MD5sum: b0fe0f45f0271a74da95a0b4cfb111df
+SHA1: ea126319cfd0be673d8e27abf12844888e865127
+SHA256: 502ad7e04041b25770c7941ab2d784203f7535bbd7b5ed19b624767d99b5ad28
+SHA512: 2eb3dbfee370d8669242256589de6e22cb37b3dc2c6975e8252f5455ee1a8a980c87487b7944109417ddd214c07bd614a75c246ea88d81eca652b307dfa8d725
+Size: 15220
+
+Package: pve-kernel-helper
+Source: pve-kernel-6.1
+Version: 7.3-4
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 82
+Depends: dosfstools, gdisk, systemd, udev
+Breaks: proxmox-ve (<< 6.0-2~)
+Replaces: proxmox-ve (<< 6.0-2~)
+Section: admin
+Priority: optional
+Description: Function for various kernel maintenance tasks.
+ This package includes kernel-hooks for marking certain kernels as
+ NeverAutoRemove and helpers for systemd-boot
+Filename: pool/bullseye/main/p/pve-kernel-6.1/pve-kernel-helper_7.3-4_all.deb
+MD5sum: 62baf4bca47ff9de5f1b3ed8e977d651
+SHA1: 1100b24434d27db3abcba17b0e69d0ebed4d89ea
+SHA256: cd865e8dc7e3d9341d0a9960668b143046a27415da1dd8a6343e04e90f5c3ef4
+SHA512: e315311ed5ea8b3db29eeba130f161be7c084d47312d67cb2acb5a60a1b7e895c55d4f0db4fcb907a2932685d3d788fee37c044ddd8921329e8b830f91bbf06e
+Size: 15244
+
+Package: pve-kernel-helper
+Source: pve-kernel-6.1
+Version: 7.3-5
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 82
+Depends: dosfstools, gdisk, systemd, udev
+Breaks: proxmox-ve (<< 6.0-2~)
+Replaces: proxmox-ve (<< 6.0-2~)
+Section: admin
+Priority: optional
+Description: Function for various kernel maintenance tasks.
+ This package includes kernel-hooks for marking certain kernels as
+ NeverAutoRemove and helpers for systemd-boot
+Filename: pool/bullseye/main/p/pve-kernel-6.1/pve-kernel-helper_7.3-5_all.deb
+MD5sum: 5c81bb4e62d1a2c0cae51f4861f922a1
+SHA1: a5d2697092660a2b26cf69fc9f53a536b3b0fa3f
+SHA256: 4e7311fe078b8bc11f28bb0c1794ee1ff31109a0656ec37e5d2432d9d1579941
+SHA512: 38980b3c14dbbe51289cc0bb8cd46cb94c9b899d5f41ad82790be87b772361f86035c1770427c665df8c6328c8d2e75465cc6a2e5a20be62aa1ab09c40870729
+Size: 15252
+
+Package: pve-kernel-helper
+Source: pve-kernel-6.1
+Version: 7.3-6
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 82
+Depends: dosfstools, gdisk, systemd, udev
+Breaks: proxmox-ve (<< 6.0-2~)
+Replaces: proxmox-ve (<< 6.0-2~)
+Section: admin
+Priority: optional
+Description: Function for various kernel maintenance tasks.
+ This package includes kernel-hooks for marking certain kernels as
+ NeverAutoRemove and helpers for systemd-boot
+Filename: pool/bullseye/main/p/pve-kernel-6.1/pve-kernel-helper_7.3-6_all.deb
+MD5sum: af6edc4fbefe74b0b4c9c0a8daf9df96
+SHA1: ac8c2d83f6ed23720682160b6f9daf2b16c9c031
+SHA256: c691a65daf2e0241f7858410ad700d16ba9ac2da95f2da7b49461fc81106c076
+SHA512: f5c48b61a5507b0852049631af6cebefa0c16798361744619230dda1d9987eeffdf1fbb84de0c6adb96e4df7ebfd8a39affc21b95815596ff3256174653e1c99
+Size: 15288
+
+Package: pve-kernel-helper
+Source: pve-kernel-6.2
+Version: 7.3-7
+Architecture: all
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 82
+Depends: dosfstools, gdisk, systemd, udev
+Breaks: proxmox-ve (<< 6.0-2~)
+Replaces: proxmox-ve (<< 6.0-2~)
+Section: admin
+Priority: optional
+Description: Function for various kernel maintenance tasks.
+ This package includes kernel-hooks for marking certain kernels as
+ NeverAutoRemove and helpers for systemd-boot
+Filename: pool/bullseye/main/p/pve-kernel-6.2/pve-kernel-helper_7.3-7_all.deb
+MD5sum: 6a84302dd7d9570c220958dec0321c21
+SHA1: 283a028fbb61ec23cfdd0abe8496dde5003e1d2b
+SHA256: a226dbfc4548c7e04c9d74f08dd4efcd94afb24ce427c3765f48b5db701c61c3
+SHA512: a5be77ee3ce61d919478bd8355851b80814ff30c747a5785d253634527b5d902a0ebb279f90738e8a89c683767edaf61404e8d5d224ffe6827e6d677cdefa1b3
+Size: 15296
+
